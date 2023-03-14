@@ -1,0 +1,102 @@
+.page{
+
+background-color : #383838;
+
+}
+.horizontal{
+margin-top:0px;
+padding:0px;
+display:flex;}
+
+.card{
+width : 250px;
+height : 150px;
+margin-top:30px;
+margin-left:30px;
+
+padding : 2px;
+background-color:#484848;
+border-radius: 20px;
+box-shadow : 0 0 30px 	#181818;
+border:2px solid gold;
+}
+.image{
+border-radius: 20px;
+
+}
+.button{
+
+padding:30px;
+margin-top:25px;
+margin-left:0px;
+}
+
+.download{
+margin-right:140px;
+width: 150px;
+height:25px;
+border:1.5px solid gold;
+border-radius:30px;
+color:white;
+
+background-color : #696969;
+}
+
+
+.download:hover
+{
+
+transform :scale(1.1);
+text-shadow : 0 0 10px black;
+box-shadow : 0 0 30px 	#181818;
+border:1.5px solid gold;
+border-radius:10px;
+}
+.text{
+color:white;
+text-shadow : 0 0 10px black;
+}
+.card:hover,.image:hover,.long:hover{
+
+border:1.5px solid gold;
+border-radius:50px;
+}
+
+
+.long{
+width : 250px;
+height : 500px;
+margin-top:80px;
+margin-left:30px;
+
+padding : 2px;
+background-color:#484848;
+border-radius: 20px;
+box-shadow : 0 0 30px 	#181818;
+border:2px solid gold;
+}
+.rect{
+
+display:flex;
+}
+.set{
+display:flex;
+}
+.bike{
+padding:5px;
+margin:0px;
+margin-left:50px;
+color:white;
+background-color:grey;
+width:500px;
+border-radius:20px;
+text-align:center;
+}
+.RCC{
+
+COLOR:GREY;
+WIDTH:500PX;
+margin-bottom:0px;
+padding:30px;
+text-shadow : 0 0 20px black;
+}
