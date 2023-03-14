@@ -1,0 +1,55 @@
+*{
+
+
+
+}
+.page
+{
+
+
+filter:alpha(opacity=20);
+background-color :#1b1b1b;
+
+}
+.heads{
+
+color:gold;
+padding:3px;
+margin:3px;
+margin-top:10px;
+border-radius:10px;
+width:100px;
+height:20px;
+text-align:center;
+background-color:#282828;
+
+}
+.set{
+
+padding:0px;
+margin:0px;
+display:flex;
+}
+
+.pin{
+
+padding:30px;}
+.pin img{
+
+width:60px;
+padding:0px;
+filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+
+.pin img:hover{
+
+transform:scale(1.1)}
+
+.text{
+margin:0px;
+padding:0px;
+color:white;
+
+}
+.imgg{
+text-decoration:none;}

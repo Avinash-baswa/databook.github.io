@@ -1,6 +1,9 @@
 .aadharpage{
 display:flex;
 background-color : #383838;
+background-image:url("gif4.gif");
+background-size: 1200px 800px;
+
 }
 .aadhar{
 
@@ -60,5 +63,26 @@ margin-bottom:-50px;
 border-radius:50%;
 background-color:#484848;
 border:1.5px solid silver;
+
+}
+.DATA{
+padding:0px;
+margin:0px;
+POSITION:relative;
+TOP:-60PX;
+MARGIN-LEFT:250PX;
+COLOR:GREY;
+text-border:1px gold;
+text-SHADOW:0px 0px 7px black;
+}
+
+.underline{
+position:relative;
+top:-70px;
+left:250px;
+transform:rotate(-3deg);
+}
+.overlay{
+width:10px;
 
 }
