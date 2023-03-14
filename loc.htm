@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" nonce="R9UtprGYUF8Wj9snzfQYfXEfKN1Q/c9nbWXdjPDW8jU=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};;(()=>{var e,t,r={9071:(e,t,r)=>{"use strict";r.d(t,{I:()=>n});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},6562:(e,t,r)=>{"use strict";r.d(t,{P_:()=>p,Mt:()=>v,C5:()=>d,DL:()=>y,OP:()=>N,lF:()=>B,Yu:()=>A,Dg:()=>h,CX:()=>f,GE:()=>w,sU:()=>M});var n={};r.r(n),r.d(n,{agent:()=>x,match:()=>j,version:()=>O});var i=r(6797),o=r(909),a=r(8610);class s{constructor(e,t){try{if(!e||"object"!=typeof e)return(0,a.Z)("New setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,a.Z)("Setting a Configurable requires a model to set its initial properties");Object.assign(this,t),Object.entries(e).forEach((e=>{let[t,r]=e;const n=(0,o.q)(t);n.length&&r&&"object"==typeof r&&n.forEach((e=>{e in r&&((0,a.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(t,".  It will have no effect.")),delete r[e])})),this[t]=r}))}catch(e){(0,a.Z)("An error occured while setting a Configurable",e)}}}const c={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},u={};function d(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!u[e])throw new Error("Info for ".concat(e," was never set"));return u[e]}function f(e,t){if(!e)throw new Error("All info objects require an agent identifier!");u[e]=new s(t,c),(0,i.Qy)(e,u[e],"info")}const l={allow_bfcache:!1,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0,harvestTimeSeconds:10},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},g={};function p(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function h(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");g[e]=new s(t,l),(0,i.Qy)(e,g[e],"config")}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=p(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function y(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new s(t,m),(0,i.Qy)(e,b[e],"loader_config")}const A=(0,i.mF)().o;var E=r(2053),x=null,O=null;if(navigator.userAgent){var T=navigator.userAgent,S=T.match(/Version\/(\S+)\s+Safari/);S&&-1===T.indexOf("Chrome")&&-1===T.indexOf("Chromium")&&(x="Safari",O=S[1])}function j(e,t){if(!x)return!1;if(e!==x)return!1;if(!t)return!0;if(!O)return!1;for(var r=O.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var D=r(5526),_=r(2374);const k="NRBA_SESSION_ID";function P(){if(!_.il)return null;try{let e;return null===(e=window.sessionStorage.getItem(k))&&(e=(0,D.ky)(16),window.sessionStorage.setItem(k,e)),e}catch(e){return null}}var I=r(8226);const C=e=>({customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:(0,E.yf)(),onerror:void 0,origin:""+_._A.location,ptid:void 0,releaseIds:{},sessionId:1==v(e,"privacy.cookies_enabled")?P():null,xhrWrappable:"function"==typeof _._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:n,version:I.q}),R={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function M(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]=new s(t,C(e)),(0,i.Qy)(e,R[e],"runtime")}function B(e){return function(e){try{const t=d(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},8226:(e,t,r)=>{"use strict";r.d(t,{q:()=>n});const n="1225.PROD"},9557:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:""};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=Array.from(s[e]);function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)f(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function f(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{"use strict";r.d(t,{c:()=>f,ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(6562),s="nr@context";let c=(0,n.fP)();var u;function d(){}function f(e){return(0,i.X)(e,s,l)}function l(){return new d}function g(){(u.backlog.api||u.backlog.feature)&&(u.aborted=!0,u.backlog={})}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},f={},p=!1;try{p=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:E,abort:g,aborted:!1,isBuffering:x,debugId:r,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=v(n),s=w(e),d=s.length,f=0;f<d;f++)s[f].apply(a,r);var l=O()[c[e]];return l&&l.push([h,e,r,a]),a}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function A(t){return f[t]=f[t]||e(h,t)}function E(e,t){var r=O();h.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function x(e){return!!O()[c[e]]}function O(){return h.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];window.addEventListener(e,t,a(r))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];document.addEventListener(e,t,a(r))}},5526:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>a,M:()=>o,Rl:()=>i,ky:()=>s});var n=r(2374);function i(){var e=null,t=0,r=n._A?.crypto||n._A?.msCrypto;function i(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,a="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",s="",c=0;c<a.length;c++)s+="x"===(o=a[c])?i().toString(16):"y"===o?(o=3&i()|8).toString(16):o;return s}function o(){return s(16)}function a(){return s(32)}function s(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}},2053:(e,t,r)=>{"use strict";r.d(t,{nb:()=>c,os:()=>u,yf:()=>s,zO:()=>a});var n=r(7145),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function s(){return i}function c(e){o=e}function u(){return o}},7145:(e,t,r)=>{"use strict";r.d(t,{G:()=>n});const n=void 0!==r(2374)._A?.performance?.timing?.navigationStart},6625:(e,t,r)=>{"use strict";r.d(t,{s:()=>c,v:()=>u});var n=r(8283),i=r(9071),o=r(2053),a=r(7145),s=r(2374);let c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,s._A?.performance?.timing?.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},8283:(e,t,r)=>{"use strict";r.d(t,{B:()=>o,L:()=>a});var n=r(2053),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){const o=e.sharedContext.agentIdentifier;var a=i[o]?.[r],s=i[o]?.[n];void 0!==a&&void 0!==s&&e.store("measures",t,{value:s-a})}},9548:(e,t,r)=>{"use strict";r.d(t,{T:()=>i});var n=r(2374);const i={isFileProtocol:function(){let e=Boolean("file:"===(0,n.lW)()?.location?.protocol);e&&(i.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},8610:(e,t,r)=>{"use strict";function n(e,t){console&&console.warn&&"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{"use strict";r.d(t,{_A:()=>o,il:()=>n,lW:()=>a,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();function a(){return o}},7022:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},9226:(e,t,r)=>{"use strict";r.d(t,{$c:()=>u,Ng:()=>d,RR:()=>c});var n=r(6562),i=r(9557),o=r(9548),a=r(8610),s={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"};class c extends i.w{constructor(e){super(e)}shouldObfuscate(){return u(this.sharedContext.agentIdentifier).length>0}obfuscateString(e){if(!e||"string"!=typeof e)return e;for(var t=u(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r}}function u(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(s),t}function d(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&((0,a.Z)('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):((0,a.Z)('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&((0,a.Z)('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},2650:(e,t,r)=>{"use strict";r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{"use strict";r.d(t,{N:()=>i,e:()=>o});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return void(0,n.iz)("visibilitychange",(function(){if(t){if("hidden"!=document.visibilityState)return;e()}e(document.visibilityState)}))}function o(){return"hidden"===document.visibilityState?-1:1/0}},6034:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.metrics},600:(e,t,r)=>{"use strict";r.r(t),r.d(t,{Instrument:()=>O,constants:()=>T});var n=r(9252),i=r(4045),o=r(6114),a=r(2374),s={REACT:"React",ANGULAR:"Angular",ANGULARJS:"AngularJS",BACKBONE:"Backbone",EMBER:"Ember",VUE:"Vue",METEOR:"Meteor",ZEPTO:"Zepto",JQUERY:"Jquery"};function c(){if(!a.il)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(s.REACT),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(s.ANGULARJS),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(s.ANGULAR),window.Backbone&&e.push(s.BACKBONE),window.Ember&&e.push(s.EMBER),window.Vue&&e.push(s.VUE),window.Meteor&&e.push(s.METEOR),window.Zepto&&e.push(s.ZEPTO),window.jQuery&&e.push(s.JQUERY)}catch(e){}return e}var u=r(9548),d=r(9226),f=r(8226),l=r(2650),g=r(8544),p=r(6562),h=r(8610);const v={dedicated:Boolean(a._A?.Worker),shared:Boolean(a._A?.SharedWorker),service:Boolean(a._A?.navigator?.serviceWorker)};let m,b,y;var w=r(6034);var A,E,x;class O extends o.S{constructor(e,t){var r;let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,w.t,n),r=this,this.singleChecks(),this.eachSessionChecks(),(0,i.X)("record-supportability",(function(){return r.recordSupportability(...arguments)}),this.featureName,this.ee),(0,i.X)("record-custom",(function(){return r.recordCustom(...arguments)}),this.featureName,this.ee),this.importAggregator()}recordSupportability(e,t){var r=["sm",e,{name:e},t];return(0,n.p)("storeMetric",r,null,this.featureName,this.ee),r}recordCustom(e,t){var r=["cm",e,{name:e},t];return(0,n.p)("storeEventMetrics",r,null,this.featureName,this.ee),r}singleChecks(){this.recordSupportability("Generic/Version/".concat(f.q,"/Detected"));const{loaderType:e}=(0,p.OP)(this.agentIdentifier);e&&this.recordSupportability("Generic/LoaderType/".concat(e,"/Detected")),a.il&&(0,l.K)((()=>{c().forEach((e=>{this.recordSupportability("Framework/"+e+"/Detected")}))})),u.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),u.T.supportabilityMetricSent=!0);const t=(0,d.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,d.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),function(e){if(!m){if(v.dedicated){m=Worker;try{a._A.Worker=r(m,"Dedicated")}catch(e){o(e,"Dedicated")}if(v.shared){b=SharedWorker;try{a._A.SharedWorker=r(b,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(v.service){y=navigator.serviceWorker.register;try{a._A.navigator.serviceWorker.register=(t=y,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){a.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,r){e("Workers/".concat(t,"module"===r?"/Module":"/Classic"))}function o(t,r){e("Workers/".concat(r,"/SM/Unsupported")),(0,h.Z)("NR Agent: Unable to capture ".concat(r," workers."),t)}}(this.recordSupportability.bind(this))}eachSessionChecks(){a.il&&(0,g.bP)("pageshow",(e=>{e.persisted&&this.recordSupportability("Generic/BFCache/PageRestored")}))}}A=O,E="featureName",x=w.t,(E=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(E))in A?Object.defineProperty(A,E,{value:x,enumerable:!0,configurable:!0,writable:!0}):A[E]=x;var T={SUPPORTABILITY_METRIC:"sm",CUSTOM_METRIC:"cm"}},2484:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewEvent},5637:(e,t,r)=>{"use strict";r.r(t),r.d(t,{Instrument:()=>h});var n,i,o,a=r(9252),s=r(2053),c=r(8283),u=r(6625),d=r(6114),f=r(2650),l=r(2484),g=r(2325),p=r(2374);class h extends d.S{constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,l.t,r),p.il&&((0,u.v)(e),(0,c.B)(e,"firstbyte",(0,s.yf)()),(0,f.K)((()=>this.measureDomContentLoaded())),(0,f.b)((()=>this.measureWindowLoaded()),!0),this.importAggregator())}measureWindowLoaded(){var e=(0,s.zO)();(0,c.B)(this.agentIdentifier,"onload",e+(0,s.os)()),(0,a.p)("timing",["load",e],void 0,g.D.pageViewTiming,this.ee)}measureDomContentLoaded(){(0,c.B)(this.agentIdentifier,"domContent",(0,s.zO)()+(0,s.os)())}}n=h,i="featureName",o=l.t,(i=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(i))in n?Object.defineProperty(n,i,{value:o,enumerable:!0,configurable:!0,writable:!0}):n[i]=o},6382:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},7817:(e,t,r)=>{"use strict";r.r(t),r.d(t,{Instrument:()=>h});var n,i,o,a=r(9252),s=r(6998),c=r(8544),u=r(2053),d=r(6562),f=r(6114),l=r(6382),g=r(2325),p=r(2374);class h extends f.S{constructor(e,t){var r;let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,l.t,n),r=this,p.il){if(this.pageHiddenTime=(0,s.e)(),this.performanceObserver,this.lcpPerformanceObserver,this.clsPerformanceObserver,this.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){this.performanceObserver=new PerformanceObserver((function(){return r.perfObserver(...arguments)}));try{this.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}this.lcpPerformanceObserver=new PerformanceObserver((function(){return r.lcpObserver(...arguments)}));try{this.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}this.clsPerformanceObserver=new PerformanceObserver((function(){return r.clsObserver(...arguments)}));try{this.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}this.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((e=>{(0,c.iz)(e,(function(){return r.captureInteraction(...arguments)}))})),(0,s.N)((()=>{this.pageHiddenTime=(0,u.zO)(),(0,a.p)("docHidden",[this.pageHiddenTime],void 0,g.D.pageViewTiming,this.ee)}),!0),(0,c.bP)("pagehide",(()=>(0,a.p)("winPagehide",[(0,u.zO)()],void 0,g.D.pageViewTiming,this.ee))),this.importAggregator()}}perfObserver(e,t){e.getEntries().forEach((e=>{"first-paint"===e.name?(0,a.p)("timing",["fp",Math.floor(e.startTime)],void 0,g.D.pageViewTiming,this.ee):"first-contentful-paint"===e.name&&(0,a.p)("timing",["fcp",Math.floor(e.startTime)],void 0,g.D.pageViewTiming,this.ee)}))}lcpObserver(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,a.p)("lcp",i,void 0,g.D.pageViewTiming,this.ee)}}clsObserver(e){e.getEntries().forEach((e=>{e.hadRecentInput||(0,a.p)("cls",[e],void 0,g.D.pageViewTiming,this.ee)}))}addConnectionAttributes(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e}captureInteraction(e){if(e instanceof d.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,u.zO)()?r.fid=(0,u.zO)()-t:t>(0,u.os)()&&t<=Date.now()?(t-=(0,u.os)(),r.fid=(0,u.zO)()-t):t=(0,u.zO)(),this.fiRecorded=!0,(0,a.p)("timing",["fi",t,r],void 0,g.D.pageViewTiming,this.ee)}}}n=h,i="featureName",o=l.t,(i=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(i))in n?Object.defineProperty(n,i,{value:o,enumerable:!0,configurable:!0,writable:!0}):n[i]=o},1509:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6562),i=r(3752),o=r(2384),a=r(6797);class s{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,n.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,n.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},6114:(e,t,r)=>{"use strict";r.d(t,{S:()=>c});var n=r(4329),i=r(1509),o=r(2650),a=r(2374),s=r(8610);class c extends i.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.hasAggregator=!1,this.auto=i,this.abortHandler,i&&(0,n.R)(e,r)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{lazyLoader:e}=await r.e(729).then(r.bind(r,8110)),{Aggregate:t}=await e(this.featureName,"aggregate");new t(this.agentIdentifier,this.aggregator)}catch(e){(0,s.Z)("Downloading ".concat(this.featureName," failed...")),this.abortHandler?.()}};a.v6?e():(0,o.b)((()=>e()),!0)}}},2384:(e,t,r)=>{"use strict";r.d(t,{j:()=>y});var n=r(8683),i=r.n(n),o=r(2325),a=r(6562),s=r(9252),c=r(7022),u=r(3752),d=r(2053),f=r(4329),l=r(2650),g=r(2374),p=r(8610);function h(e){["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&e.api[t](...n)}))}(t,...n)}}))}var v=r(6797);const m={stn:o.D.sessionTrace,err:o.D.jserrors,ins:o.D.pageAction,spa:o.D.spa};const b={};function y(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:E,runtime:x={loaderType:n},exposed:O=!0}=t;const T=(0,v.gG)();let S={};return A||(w=T.init,A=T.info,E=T.loader_config,S=T),g.v6&&(A.jsAttributes={...A.jsAttributes,isWorker:!0}),(0,a.CX)(e,A),(0,a.Dg)(e,w||{}),(0,a.GE)(e,E||{}),(0,a.sU)(e,x),function(e,t,n){n||(0,f.R)(e,"api"),h(t);var v=u.ee.get(e),m=v.get("tracer"),b="api-",y=b+"ixn-";function w(){}(0,c.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=E(b,r,!0,"api")})),t.addPageAction=E(b,"addPageAction",!0,o.D.pageAction),t.setCurrentRouteName=E(b,"routeName",!0,o.D.spa),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,a.OP)(e).customTransaction=(r||"http://custom.transaction")+t,E(b,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){const n=(0,a.C5)(e);return(0,a.CX)(e,{...n,jsAttributes:{...n.jsAttributes,[t]:r}}),E(b,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new w).get()};var A=w.prototype={createTracer:function(e,t){var r={},n=this,i="function"==typeof t;return(0,s.p)(y+"tracer",[(0,d.zO)(),e,r],n,o.D.spa,v),function(){if(m.emit((i?"":"no-")+"fn-start",[(0,d.zO)(),n,i],r),i)try{return t.apply(this,arguments)}catch(e){throw m.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{m.emit("fn-end",[(0,d.zO)()],r)}}}};function E(e,t,r,n){return function(){return(0,s.p)("record-supportability",["API/"+t+"/called"],void 0,o.D.metrics,v),(0,s.p)(e+t,[(0,d.zO)()].concat(i()(arguments)),r?null:this,n,v),r?void 0:this}}function x(){r.e(439).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,f.L)(e,"api")})).catch((()=>(0,p.Z)("Downloading runtime APIs failed...")))}(0,c.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){A[t]=E(y,t,void 0,o.D.spa)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,s.p)("record-supportability",["API/noticeError/called"],void 0,o.D.metrics,v),(0,s.p)("err",[e,(0,d.zO)(),!1,t],void 0,o.D.jserrors,v)},g.v6?x():(0,l.b)((()=>x()),!0)}(e,S,y),(0,v.Qy)(e,T,"api"),(0,v.Qy)(e,O,"exposed"),g.v6||((0,v.EZ)("activatedFeatures",b),(0,v.EZ)("setToken",(t=>function(e,t){var r=u.ee.get(t);e&&"object"==typeof e&&((0,c.D)(e,(function(e,t){if(!t)return(0,s.p)("block-"+e,[],void 0,m[e],r);t&&!b[e]&&((0,s.p)("feat-"+e,[],void 0,m[e],r),b[e]=!0)})),(0,f.L)(t,o.D.pageViewEvent))}(t,e)))),S}},909:(e,t,r)=>{"use strict";r.d(t,{Z:()=>i,q:()=>o});var n=r(2325);function i(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}function o(e){return e===n.D.jserrors?[]:["auto"]}},2325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8}},8683:e=>{e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",225:"ajax-instrument",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",578:"jserrors-instrument",729:"lazy-loader",757:"session_trace-instrument",786:"page_view_event-aggregate",873:"spa-aggregate",876:"spa-instrument",898:"ajax-aggregate",908:"page_action-instrument"}[e]||e)+"."+{78:"92657d87",118:"d37755e4",147:"b4a54ed9",193:"94c80cda",225:"1e8aaf7f",264:"bcaf68fc",317:"ef250e1c",348:"e791ce32",439:"6bb277af",578:"1eaebfa5",729:"48127245",757:"64f1d623",786:"29613e65",873:"6bec5056",876:"f3685aa9",898:"fc672923",908:"64360627"}[e]+"-1225.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var f=u[d];if(f.getAttribute("src")==r||f.getAttribute("data-webpack")==t+o){s=f;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var l=(t,n)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},g=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={662:0,744:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{"use strict";i.r(o);var e=i(2325),t=i(6562);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,"".concat(e,".enabled"))}(r,e)})),n}var a=i(2384),s=i(909),c=i(9557),u=i(7022);class d extends c.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,u.D)(e,(function(e,r){t[e]=f(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,u.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=f(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=l(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=f(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=g(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function f(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=l(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function l(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function g(e){return"object"!=typeof e?[]:(0,u.D)(e,p)}function p(e,t){return t}var h=i(6797),v=i(5526),m=i(8610);var b=i(5637),y=i(7817),w=i(600);new class{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,v.ky)(16);this.agentIdentifier=r,this.sharedAggregator=new d({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=t.features||[],this.desiredFeatures.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),Object.assign(this,(0,a.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const e="features";try{const t=n(this.agentIdentifier);this.desiredFeatures.forEach((e=>{if(t[e.featureName]){const r=(0,s.Z)(e.featureName);r.every((e=>t[e]))||(0,m.Z)("".concat(e.featureName," is enabled but one or more dependent features has been disabled (").concat(JSON.stringify(r),"). This may cause unintended consequences or missing data...")),this.features[e.featureName]=new e(this.agentIdentifier,this.sharedAggregator)}})),(0,h.Qy)(this.agentIdentifier,this.features,e)}catch(t){(0,m.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,h.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[e],delete this.sharedAggregator,delete r.ee?.get(this.agentIdentifier),!1}}}({features:[b.Instrument,y.Instrument,w.Instrument],loaderType:"lite"})})(),window.NRBA=o})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf63ff8b93ed2e2">
+	<meta name="csrf-value" content="e47455ad8ed8e505a11526557d6a41bf">
+	<meta name="csp-nonce" content="R9UtprGYUF8Wj9snzfQYfXEfKN1Q/c9nbWXdjPDW8jU=">
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+	<title>Flat 3d isometric map on tablet gps navigation app</title>
+	<meta name="description" content="Flat 3d isometric map on tablet, GPS navigation app infographic concept. Flat landscape street location isometric concept on the tablet. Application territory building in the natural landscape. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+		<meta name="robots" content="max-image-preview:large">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179">
+	<meta property="og:title" content="Flat 3d isometric map on tablet gps navigation app vector image on VectorStock">
+	<meta property="og:description" content="Flat 3d isometric map on tablet, GPS navigation app infographic concept. Flat landscape street location isometric concept on the tablet. Application territory building in the natural landscape. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+	<meta property="og:image:url" content="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+	<meta property="og:image:secure_url" content="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179">
+	<meta name="twitter:title" content="Flat 3d isometric map on tablet gps navigation app vector image">
+	<meta name="twitter:description" content="Flat 3d isometric map on tablet, GPS navigation app infographic concept. Flat landscape street location isometric concept on the tablet. Application territory building in the natural landscape.">
+	<meta name="twitter:image" content="https://cdn5.vectorstock.com/i/thumb-large/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179">
+
+	<link rel="stylesheet" type="text/css" href="/cache/common1675717942.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/common-payment1675717942.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/vector1675717942.min.css">
+	<script nonce='R9UtprGYUF8Wj9snzfQYfXEfKN1Q/c9nbWXdjPDW8jU='>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NL6HLLR');</script>
+	<script src="/cache/common1677620830.min.js"></script>
+	<script src="/cache/common-payment-paddle1677620830.min.js"></script>
+	<script src="/cache/vector1677620830.min.js"></script>
+	<link rel="preload" href="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg" as="image" type="image/jpeg">
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6HLLR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="/" title="VectorStock&reg;">VectorStock&reg;</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="focused empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search&hellip;" maxlength="50" autofocus>
+								<button type="button" data-action="clear">&times;</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					</fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+	<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li data-action="login"><a href="/?login=1">Login&hellip;</a></li>
+							<li><a href="/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Login</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We&apos;re the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you&apos;re a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="/signup">Sign up now, it&rsquo;s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2"  maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Login</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors/isometric-vectors">
+							<span itemprop="name">Isometric Vectors</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+				</ol>
+
+				<h1>Flat 3d isometric map on tablet gps navigation app vector&nbsp;image</h1>
+
+				<figure class="target">
+					<div class="highres" data-src="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg" style="padding-top: 99.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.webp">
+							<source type="image/jpeg" srcset="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+							<img src="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg" importance="high" title="Flat 3d isometric map on tablet gps navigation app vector image" alt="Flat 3d isometric map on tablet gps navigation app">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="8002179">
+					<input type="hidden" id="vector_title" value="Flat 3d isometric map on tablet gps navigation app">
+					<input type="hidden" id="vector_description" value="Flat 3d isometric map on tablet, GPS navigation app infographic concept. Flat landscape street location isometric concept on the tablet. Application territory building in the natural landscape. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179">
+					<input type="hidden" id="vector_media" value="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="Deedman">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;label&quot;:&quot;Standard License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;label&quot;:&quot;Expanded License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: License type: Exclusive
+						-->
+						<div class="option" data-type="ownership">
+							<h6>
+								<span class="type">Ownership</span>
+								<a href="/faq/members/what-is-an-exclusive-buyout">Learn More</a>
+							</h6>
+							<div class="optgroup radgroup" data-id="rights" data-enabled="0">
+								<fieldset>
+									<label for="f_ownership_exclusive">
+										<input type="radio" id="f_ownership_exclusive" name="license" value="exclusive" tabindex="4">
+										<span class="label">Exclusive</span>
+										<span class="descr">If you would like to buy this vector exclusively, send the artist a request below:</span>
+										<button type="button" data-copy-process="Sending request" data-copy-success="Request has been sent">
+											<span class="icon"></span>
+											<span class="label">Ask for Exclusive Buyout</span>
+										</button>
+									</label>
+								</fieldset>
+							</div>
+							
+							<div class="help">
+								<p>Want to have this vector image all to yourself? An Exclusive Buyout secures the full rights of this vector.</p>
+								<p>We will remove this vector from our library and the artist will cease selling the&nbsp;artwork.</p>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked" >
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image"  checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69&cent;</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Payment options (Exclusive)
+						-->
+						<div class="option" data-type="payment" data-license="exclusive">
+							<h6><span class="type">Payment</span></h6>
+							<div class="optgroup radgroup" data-license="exclusive">
+								<fieldset class="checked">
+									<label for="f_payment_exclusive_ppi">
+										<input type="radio" id="f_payment_exclusive_ppi" name="payment_exclusive" data-cost="499" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>499</var></span>
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="/faq/members/what-is-hire-a-designer">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We&rsquo;ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" class="target">
+					<div class="highres" data-src="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg" style="padding-top: 99.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.webp">
+							<source type="image/jpeg" srcset="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+							<img src="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg" importance="high" title="Flat 3d isometric map on tablet gps navigation app vector image" alt="Flat 3d isometric map on tablet gps navigation app">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"/></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"/></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"/></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"/></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>8002179</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="/royalty-free-vectors/vectors-by_Deedman" rel="nofollow">Deedman</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">&hearts;</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope>
+					<meta itemprop="contentUrl" content="https://cdn5.vectorstock.com/i/1000x1000/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn5.vectorstock.com/i/thumb-large/21/79/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179.jpg">
+					<meta itemprop="name" content="Flat 3d isometric map on tablet gps navigation app">
+					<meta itemprop="description" content="Flat 3d isometric map on tablet, GPS navigation app infographic concept. Flat landscape street location isometric concept on the tablet. Application territory building in the natural landscape. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="Deedman"/>
+					<meta itemprop="datePublished" content="2016-03-20">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/flat-3d-isometric-map-on-tablet-gps-navigation-app-vector-8002179">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/isometric-smart-parking-concept-vector-45231579">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/79/isometric-smart-parking-concept-vector-45231579.webp 2x, https://cdn.vectorstock.com/i/preview-1x/15/79/isometric-smart-parking-concept-vector-45231579.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/15/79/isometric-smart-parking-concept-vector-45231579.webp 3x, https://cdn.vectorstock.com/i/preview-1x/15/79/isometric-smart-parking-concept-vector-45231579.webp 2x, https://cdn.vectorstock.com/i/preview-lt/15/79/isometric-smart-parking-concept-vector-45231579.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/79/isometric-smart-parking-concept-vector-45231579.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/15/79/isometric-smart-parking-concept-vector-45231579.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/15/79/isometric-smart-parking-concept-vector-45231579.jpg" data-id="45231579" data-title="isometric smart parking concept" data-ratio="1.556" loading="lazy" alt="Isometric smart parking concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/sharing-transport-concept-vector-45081056">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/56/sharing-transport-concept-vector-45081056.webp 2x, https://cdn.vectorstock.com/i/preview-1x/10/56/sharing-transport-concept-vector-45081056.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/10/56/sharing-transport-concept-vector-45081056.webp 3x, https://cdn.vectorstock.com/i/preview-1x/10/56/sharing-transport-concept-vector-45081056.webp 2x, https://cdn.vectorstock.com/i/preview-lt/10/56/sharing-transport-concept-vector-45081056.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/56/sharing-transport-concept-vector-45081056.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/10/56/sharing-transport-concept-vector-45081056.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/10/56/sharing-transport-concept-vector-45081056.jpg" data-id="45081056" data-title="sharing transport concept" data-ratio="1.488" loading="lazy" alt="Sharing transport concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/paper-mobile-city-navigation-application-software-vector-41676867">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.webp 2x, https://cdn.vectorstock.com/i/preview-1x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.webp 3x, https://cdn.vectorstock.com/i/preview-1x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.webp 2x, https://cdn.vectorstock.com/i/preview-lt/68/67/paper-mobile-city-navigation-application-software-vector-41676867.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/68/67/paper-mobile-city-navigation-application-software-vector-41676867.jpg" data-id="41676867" data-title="paper mobile city navigation application software" data-ratio="1" loading="lazy" alt="Paper mobile city navigation application software vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/urban-taxi-service-transportation-vector-43297554">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/54/urban-taxi-service-transportation-vector-43297554.webp 2x, https://cdn.vectorstock.com/i/preview-1x/75/54/urban-taxi-service-transportation-vector-43297554.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/75/54/urban-taxi-service-transportation-vector-43297554.webp 3x, https://cdn.vectorstock.com/i/preview-1x/75/54/urban-taxi-service-transportation-vector-43297554.webp 2x, https://cdn.vectorstock.com/i/preview-lt/75/54/urban-taxi-service-transportation-vector-43297554.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/54/urban-taxi-service-transportation-vector-43297554.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/75/54/urban-taxi-service-transportation-vector-43297554.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/75/54/urban-taxi-service-transportation-vector-43297554.jpg" data-id="43297554" data-title="urban taxi service transportation" data-ratio="1.6" loading="lazy" alt="Urban taxi service transportation vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/taxi-cab-riding-for-client-vector-27408968">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/89/68/taxi-cab-riding-for-client-vector-27408968.webp 2x, https://cdn.vectorstock.com/i/preview-1x/89/68/taxi-cab-riding-for-client-vector-27408968.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/89/68/taxi-cab-riding-for-client-vector-27408968.webp 3x, https://cdn.vectorstock.com/i/preview-1x/89/68/taxi-cab-riding-for-client-vector-27408968.webp 2x, https://cdn.vectorstock.com/i/preview-lt/89/68/taxi-cab-riding-for-client-vector-27408968.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/89/68/taxi-cab-riding-for-client-vector-27408968.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/89/68/taxi-cab-riding-for-client-vector-27408968.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/89/68/taxi-cab-riding-for-client-vector-27408968.jpg" data-id="27408968" data-title="taxi cab riding for client" data-ratio="2" loading="lazy" alt="Taxi cab riding for client vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/online-delivery-transport-transportation-vector-27838879">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/88/79/online-delivery-transport-transportation-vector-27838879.webp 2x, https://cdn.vectorstock.com/i/preview-1x/88/79/online-delivery-transport-transportation-vector-27838879.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/88/79/online-delivery-transport-transportation-vector-27838879.webp 3x, https://cdn.vectorstock.com/i/preview-1x/88/79/online-delivery-transport-transportation-vector-27838879.webp 2x, https://cdn.vectorstock.com/i/preview-lt/88/79/online-delivery-transport-transportation-vector-27838879.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/88/79/online-delivery-transport-transportation-vector-27838879.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/88/79/online-delivery-transport-transportation-vector-27838879.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/88/79/online-delivery-transport-transportation-vector-27838879.jpg" data-id="27838879" data-title="online delivery transport transportation" data-ratio="1.528" loading="lazy" alt="Online delivery transport transportation vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/car-sharing-navigation-location-app-concept-red-vector-27989026">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.webp 2x, https://cdn.vectorstock.com/i/preview-1x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.webp 3x, https://cdn.vectorstock.com/i/preview-1x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.webp 2x, https://cdn.vectorstock.com/i/preview-lt/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/90/26/car-sharing-navigation-location-app-concept-red-vector-27989026.jpg" data-id="27989026" data-title="car sharing navigation location app concept red" data-ratio="1.4" loading="lazy" alt="Car sharing navigation location app concept red vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/order-taxi-from-the-mobile-app-vector-39885841">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/58/41/order-taxi-from-the-mobile-app-vector-39885841.webp 2x, https://cdn.vectorstock.com/i/preview-1x/58/41/order-taxi-from-the-mobile-app-vector-39885841.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/58/41/order-taxi-from-the-mobile-app-vector-39885841.webp 3x, https://cdn.vectorstock.com/i/preview-1x/58/41/order-taxi-from-the-mobile-app-vector-39885841.webp 2x, https://cdn.vectorstock.com/i/preview-lt/58/41/order-taxi-from-the-mobile-app-vector-39885841.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/58/41/order-taxi-from-the-mobile-app-vector-39885841.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/58/41/order-taxi-from-the-mobile-app-vector-39885841.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/58/41/order-taxi-from-the-mobile-app-vector-39885841.jpg" data-id="39885841" data-title="order taxi from the mobile app" data-ratio="1" loading="lazy" alt="Order taxi from the mobile app vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/city-plan-isometric-on-smartphone-vector-12121975">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/75/city-plan-isometric-on-smartphone-vector-12121975.webp 2x, https://cdn.vectorstock.com/i/preview-1x/19/75/city-plan-isometric-on-smartphone-vector-12121975.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/19/75/city-plan-isometric-on-smartphone-vector-12121975.webp 3x, https://cdn.vectorstock.com/i/preview-1x/19/75/city-plan-isometric-on-smartphone-vector-12121975.webp 2x, https://cdn.vectorstock.com/i/preview-lt/19/75/city-plan-isometric-on-smartphone-vector-12121975.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/75/city-plan-isometric-on-smartphone-vector-12121975.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/19/75/city-plan-isometric-on-smartphone-vector-12121975.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/19/75/city-plan-isometric-on-smartphone-vector-12121975.jpg" data-id="12121975" data-title="city plan isometric on smartphone" data-ratio="1.58" loading="lazy" alt="City plan isometric on smartphone vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.webp 2x, https://cdn.vectorstock.com/i/preview-1x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.webp 3x, https://cdn.vectorstock.com/i/preview-1x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.webp 2x, https://cdn.vectorstock.com/i/preview-lt/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/60/10/smart-city-or-isometric-town-with-iot-or-gps-tech-vector-25436010.jpg" data-id="25436010" data-title="smart city or isometric town with iot or gps tech" data-ratio="1.5" loading="lazy" alt="Smart city or isometric town with iot or gps tech vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/user-character-hand-hold-technology-gadget-tablet-vector-44901045">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.webp 2x, https://cdn.vectorstock.com/i/preview-1x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.webp 3x, https://cdn.vectorstock.com/i/preview-1x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.webp 2x, https://cdn.vectorstock.com/i/preview-lt/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/10/45/user-character-hand-hold-technology-gadget-tablet-vector-44901045.jpg" data-id="44901045" data-title="user character hand hold technology gadget tablet" data-ratio="1.472" loading="lazy" alt="User character hand hold technology gadget tablet vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/nyc-map-05-building-isometric-vector-5943607">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/07/nyc-map-05-building-isometric-vector-5943607.webp 2x, https://cdn.vectorstock.com/i/preview-1x/36/07/nyc-map-05-building-isometric-vector-5943607.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/36/07/nyc-map-05-building-isometric-vector-5943607.webp 3x, https://cdn.vectorstock.com/i/preview-1x/36/07/nyc-map-05-building-isometric-vector-5943607.webp 2x, https://cdn.vectorstock.com/i/preview-lt/36/07/nyc-map-05-building-isometric-vector-5943607.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/07/nyc-map-05-building-isometric-vector-5943607.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/36/07/nyc-map-05-building-isometric-vector-5943607.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/36/07/nyc-map-05-building-isometric-vector-5943607.jpg" data-id="5943607" data-title="nyc map 05 building isometric" data-ratio="1.472" loading="lazy" alt="Nyc map 05 building isometric vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/isometric-smart-city-on-smartphone-screen-vector-21099242">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.webp 2x, https://cdn.vectorstock.com/i/preview-1x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.webp 3x, https://cdn.vectorstock.com/i/preview-1x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.webp 2x, https://cdn.vectorstock.com/i/preview-lt/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/92/42/isometric-smart-city-on-smartphone-screen-vector-21099242.jpg" data-id="21099242" data-title="isometric smart city on smartphone screen" data-ratio="1.288" loading="lazy" alt="Isometric smart city on smartphone screen vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/flat-color-modern-isometric-smart-city-vector-20983408">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.webp 2x, https://cdn.vectorstock.com/i/preview-1x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.webp 3x, https://cdn.vectorstock.com/i/preview-1x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.webp 2x, https://cdn.vectorstock.com/i/preview-lt/34/08/flat-color-modern-isometric-smart-city-vector-20983408.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/34/08/flat-color-modern-isometric-smart-city-vector-20983408.jpg" data-id="20983408" data-title="flat color modern isometric - smart city" data-ratio="1" loading="lazy" alt="Flat color modern isometric - smart city vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/isometric-smart-parking-concept-vector-20381533">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/33/isometric-smart-parking-concept-vector-20381533.webp 2x, https://cdn.vectorstock.com/i/preview-1x/15/33/isometric-smart-parking-concept-vector-20381533.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/15/33/isometric-smart-parking-concept-vector-20381533.webp 3x, https://cdn.vectorstock.com/i/preview-1x/15/33/isometric-smart-parking-concept-vector-20381533.webp 2x, https://cdn.vectorstock.com/i/preview-lt/15/33/isometric-smart-parking-concept-vector-20381533.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/33/isometric-smart-parking-concept-vector-20381533.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/15/33/isometric-smart-parking-concept-vector-20381533.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/15/33/isometric-smart-parking-concept-vector-20381533.jpg" data-id="20381533" data-title="isometric smart parking concept" data-ratio="1.556" loading="lazy" alt="Isometric smart parking concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.webp 2x, https://cdn.vectorstock.com/i/preview-1x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.webp 3x, https://cdn.vectorstock.com/i/preview-1x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.webp 2x, https://cdn.vectorstock.com/i/preview-lt/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/44/10/logistic-mobile-delivery-tracking-app-3d-isometric-vector-23764410.jpg" data-id="23764410" data-title="logistic mobile delivery tracking app 3d isometric" data-ratio="1.5" loading="lazy" alt="Logistic mobile delivery tracking app 3d isometric vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/smart-city-isometric-app-device-mark-object-vector-13950276">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.webp 2x, https://cdn.vectorstock.com/i/preview-1x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.webp 3x, https://cdn.vectorstock.com/i/preview-1x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.webp 2x, https://cdn.vectorstock.com/i/preview-lt/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/02/76/smart-city-isometric-app-device-mark-object-vector-13950276.jpg" data-id="13950276" data-title="smart city isometric app device mark object" data-ratio="1" loading="lazy" alt="Smart city isometric app device mark object vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cab-app-design-taxi-order-online-service-mobile-vector-43081184">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.webp 2x, https://cdn.vectorstock.com/i/preview-1x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.webp 3x, https://cdn.vectorstock.com/i/preview-1x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.webp 2x, https://cdn.vectorstock.com/i/preview-lt/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/11/84/cab-app-design-taxi-order-online-service-mobile-vector-43081184.jpg" data-id="43081184" data-title="cab app design taxi order online service mobile" data-ratio="1.652" loading="lazy" alt="Cab app design taxi order online service mobile vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/isometric-city-buildings-with-gps-navigation-vector-27774577">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.webp 2x, https://cdn.vectorstock.com/i/preview-1x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.webp 3x, https://cdn.vectorstock.com/i/preview-1x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.webp 2x, https://cdn.vectorstock.com/i/preview-lt/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/45/77/isometric-city-buildings-with-gps-navigation-vector-27774577.jpg" data-id="27774577" data-title="isometric city buildings with gps navigation" data-ratio="1" loading="lazy" alt="Isometric city buildings with gps navigation vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.webp 2x, https://cdn.vectorstock.com/i/preview-1x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.webp 3x, https://cdn.vectorstock.com/i/preview-1x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.webp 2x, https://cdn.vectorstock.com/i/preview-lt/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/43/35/flat-map-mobile-gps-navigation-infographic-3d-vector-4344335.jpg" data-id="4344335" data-title="flat map mobile gps navigation infographic 3d" data-ratio="1.124" loading="lazy" alt="Flat map mobile gps navigation infographic 3d vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="38245781" data-title="isometric smart city on smartphone screen" data-src="https://cdn2.vectorstock.com/i/thumbs/57/81/isometric-smart-city-on-smartphone-screen-vector-38245781.jpg"><a href="//www.vectorstock.com/royalty-free-vector/isometric-smart-city-on-smartphone-screen-vector-38245781" title="isometric smart city on smartphone screen vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/57/81/isometric-smart-city-on-smartphone-screen-vector-38245781.jpg" title="isometric smart city on smartphone screen" alt="isometric smart city on smartphone screen vector image"></noscript></a></li>
+						<li data-id="29034370" data-title="mobile navigation concept" data-src="https://cdn1.vectorstock.com/i/thumbs/43/70/mobile-navigation-concept-vector-29034370.jpg"><a href="//www.vectorstock.com/royalty-free-vector/mobile-navigation-concept-vector-29034370" title="mobile navigation concept vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/43/70/mobile-navigation-concept-vector-29034370.jpg" title="mobile navigation concept" alt="mobile navigation concept vector image"></noscript></a></li>
+						<li data-id="23747439" data-title="mobile navigation concept" data-src="https://cdn5.vectorstock.com/i/thumbs/74/39/mobile-navigation-concept-vector-23747439.jpg"><a href="//www.vectorstock.com/royalty-free-vector/mobile-navigation-concept-vector-23747439" title="mobile navigation concept vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/74/39/mobile-navigation-concept-vector-23747439.jpg" title="mobile navigation concept" alt="mobile navigation concept vector image"></noscript></a></li>
+						<li data-id="38055075" data-title="3d web hand holding mobile smart phone" data-src="https://cdn1.vectorstock.com/i/thumbs/50/75/3d-web-hand-holding-mobile-smart-phone-vector-38055075.jpg"><a href="//www.vectorstock.com/royalty-free-vector/3d-web-hand-holding-mobile-smart-phone-vector-38055075" title="3d web hand holding mobile smart phone vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/50/75/3d-web-hand-holding-mobile-smart-phone-vector-38055075.jpg" title="3d web hand holding mobile smart phone" alt="3d web hand holding mobile smart phone vector image"></noscript></a></li>
+						<li data-id="38241238" data-title="post office smartphone cartoon" data-src="https://cdn4.vectorstock.com/i/thumbs/12/38/post-office-smartphone-cartoon-vector-38241238.jpg"><a href="//www.vectorstock.com/royalty-free-vector/post-office-smartphone-cartoon-vector-38241238" title="post office smartphone cartoon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/12/38/post-office-smartphone-cartoon-vector-38241238.jpg" title="post office smartphone cartoon" alt="post office smartphone cartoon vector image"></noscript></a></li>
+						<li data-id="28417979" data-title="women only taxi service concept smartphone" data-src="https://cdn5.vectorstock.com/i/thumbs/79/79/women-only-taxi-service-concept-smartphone-vector-28417979.jpg"><a href="//www.vectorstock.com/royalty-free-vector/women-only-taxi-service-concept-smartphone-vector-28417979" title="women only taxi service concept smartphone vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/79/79/women-only-taxi-service-concept-smartphone-vector-28417979.jpg" title="women only taxi service concept smartphone" alt="women only taxi service concept smartphone vector image"></noscript></a></li>
+						<li data-id="32755445" data-title="map route path track with pointer markers online" data-src="https://cdn1.vectorstock.com/i/thumbs/54/45/map-route-path-track-with-pointer-markers-online-vector-32755445.jpg"><a href="//www.vectorstock.com/royalty-free-vector/map-route-path-track-with-pointer-markers-online-vector-32755445" title="map route path track with pointer markers online vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/54/45/map-route-path-track-with-pointer-markers-online-vector-32755445.jpg" title="map route path track with pointer markers online" alt="map route path track with pointer markers online vector image"></noscript></a></li>
+						<li data-id="27122907" data-title="background pattern 10" data-src="https://cdn3.vectorstock.com/i/thumbs/29/07/background-pattern-10-vector-27122907.jpg"><a href="//www.vectorstock.com/royalty-free-vector/background-pattern-10-vector-27122907" title="background pattern 10 vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/29/07/background-pattern-10-vector-27122907.jpg" title="background pattern 10" alt="background pattern 10 vector image"></noscript></a></li>
+						<li data-id="31740742" data-title="map gps web location online and pin pointer" data-src="https://cdn3.vectorstock.com/i/thumbs/07/42/map-gps-web-location-online-and-pin-pointer-vector-31740742.jpg"><a href="//www.vectorstock.com/royalty-free-vector/map-gps-web-location-online-and-pin-pointer-vector-31740742" title="map gps web location online and pin pointer vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/07/42/map-gps-web-location-online-and-pin-pointer-vector-31740742.jpg" title="map gps web location online and pin pointer" alt="map gps web location online and pin pointer vector image"></noscript></a></li>
+						<li data-id="38586420" data-title="smartphone application with city map" data-src="https://cdn1.vectorstock.com/i/thumbs/64/20/smartphone-application-with-city-map-vector-38586420.jpg"><a href="//www.vectorstock.com/royalty-free-vector/smartphone-application-with-city-map-vector-38586420" title="smartphone application with city map vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/64/20/smartphone-application-with-city-map-vector-38586420.jpg" title="smartphone application with city map" alt="smartphone application with city map vector image"></noscript></a></li>
+						<li data-id="6409814" data-title="smartphone isometric" data-src="https://cdn5.vectorstock.com/i/thumbs/98/14/smartphone-isometric-vector-6409814.jpg"><a href="//www.vectorstock.com/royalty-free-vector/smartphone-isometric-vector-6409814" title="smartphone isometric vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/98/14/smartphone-isometric-vector-6409814.jpg" title="smartphone isometric" alt="smartphone isometric vector image"></noscript></a></li>
+						<li data-id="23565323" data-title="tablet computer with city map" data-src="https://cdn4.vectorstock.com/i/thumbs/53/23/tablet-computer-with-city-map-vector-23565323.jpg"><a href="//www.vectorstock.com/royalty-free-vector/tablet-computer-with-city-map-vector-23565323" title="tablet computer with city map vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/53/23/tablet-computer-with-city-map-vector-23565323.jpg" title="tablet computer with city map" alt="tablet computer with city map vector image"></noscript></a></li>
+						<li data-id="43364720" data-title="isometric city infrastructure transport bridges" data-src="https://cdn1.vectorstock.com/i/thumbs/47/20/isometric-city-infrastructure-transport-bridges-vector-43364720.jpg"><a href="//www.vectorstock.com/royalty-free-vector/isometric-city-infrastructure-transport-bridges-vector-43364720" title="isometric city infrastructure transport bridges vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/47/20/isometric-city-infrastructure-transport-bridges-vector-43364720.jpg" title="isometric city infrastructure transport bridges" alt="isometric city infrastructure transport bridges vector image"></noscript></a></li>
+						<li data-id="940901" data-title="apps icon set" data-src="https://cdn2.vectorstock.com/i/thumbs/09/01/apps-icon-set-vector-940901.jpg"><a href="//www.vectorstock.com/royalty-free-vector/apps-icon-set-vector-940901" title="apps icon set vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/09/01/apps-icon-set-vector-940901.jpg" title="apps icon set" alt="apps icon set vector image"></noscript></a></li>
+						<li data-id="27313377" data-title="flat gps navigation on phone" data-src="https://cdn3.vectorstock.com/i/thumbs/33/77/flat-gps-navigation-on-phone-vector-27313377.jpg"><a href="//www.vectorstock.com/royalty-free-vector/flat-gps-navigation-on-phone-vector-27313377" title="flat gps navigation on phone vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/33/77/flat-gps-navigation-on-phone-vector-27313377.jpg" title="flat gps navigation on phone" alt="flat gps navigation on phone vector image"></noscript></a></li>
+						<li data-id="30162903" data-title="smart navigation 02" data-src="https://cdn4.vectorstock.com/i/thumbs/29/03/smart-navigation-02-vector-30162903.jpg"><a href="//www.vectorstock.com/royalty-free-vector/smart-navigation-02-vector-30162903" title="smart navigation 02 vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/29/03/smart-navigation-02-vector-30162903.jpg" title="smart navigation 02" alt="smart navigation 02 vector image"></noscript></a></li>
+						<li data-id="38032371" data-title="isometric for website" data-src="https://cdn2.vectorstock.com/i/thumbs/23/71/isometric-for-website-vector-38032371.jpg"><a href="//www.vectorstock.com/royalty-free-vector/isometric-for-website-vector-38032371" title="isometric for website vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/23/71/isometric-for-website-vector-38032371.jpg" title="isometric for website" alt="isometric for website vector image"></noscript></a></li>
+						<li data-id="26970375" data-title="mobile navigation editable stroke line icon" data-src="https://cdn1.vectorstock.com/i/thumbs/03/75/mobile-navigation-editable-stroke-line-icon-vector-26970375.jpg"><a href="//www.vectorstock.com/royalty-free-vector/mobile-navigation-editable-stroke-line-icon-vector-26970375" title="mobile navigation editable stroke line icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/03/75/mobile-navigation-editable-stroke-line-icon-vector-26970375.jpg" title="mobile navigation editable stroke line icon" alt="mobile navigation editable stroke line icon vector image"></noscript></a></li>
+						<li data-id="44212043" data-title="gps navigation geolocation on phone using" data-src="https://cdn4.vectorstock.com/i/thumbs/20/43/gps-navigation-geolocation-on-phone-using-vector-44212043.jpg"><a href="//www.vectorstock.com/royalty-free-vector/gps-navigation-geolocation-on-phone-using-vector-44212043" title="gps navigation geolocation on phone using vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/20/43/gps-navigation-geolocation-on-phone-using-vector-44212043.jpg" title="gps navigation geolocation on phone using" alt="gps navigation geolocation on phone using vector image"></noscript></a></li>
+						<li data-id="2798855" data-title="using tablet for street map navigation" data-src="https://cdn1.vectorstock.com/i/thumbs/88/55/using-tablet-for-street-map-navigation-vector-2798855.jpg"><a href="//www.vectorstock.com/royalty-free-vector/using-tablet-for-street-map-navigation-vector-2798855" title="using tablet for street map navigation vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/88/55/using-tablet-for-street-map-navigation-vector-2798855.jpg" title="using tablet for street map navigation" alt="using tablet for street map navigation vector image"></noscript></a></li>
+						<li data-id="23302595" data-title="navigation map isometric concept gps location" data-src="https://cdn1.vectorstock.com/i/thumbs/25/95/navigation-map-isometric-concept-gps-location-vector-23302595.jpg"><a href="//www.vectorstock.com/royalty-free-vector/navigation-map-isometric-concept-gps-location-vector-23302595" title="navigation map isometric concept gps location vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/25/95/navigation-map-isometric-concept-gps-location-vector-23302595.jpg" title="navigation map isometric concept gps location" alt="navigation map isometric concept gps location vector image"></noscript></a></li>
+						<li data-id="20791383" data-title="isometric businessman hand holding smartphone" data-src="https://cdn4.vectorstock.com/i/thumbs/13/83/isometric-businessman-hand-holding-smartphone-vector-20791383.jpg"><a href="//www.vectorstock.com/royalty-free-vector/isometric-businessman-hand-holding-smartphone-vector-20791383" title="isometric businessman hand holding smartphone vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/13/83/isometric-businessman-hand-holding-smartphone-vector-20791383.jpg" title="isometric businessman hand holding smartphone" alt="isometric businessman hand holding smartphone vector image"></noscript></a></li>
+						<li data-id="810516" data-title="tablet pc" data-src="https://cdn2.vectorstock.com/i/thumbs/05/16/tablet-pc-vector-810516.jpg"><a href="//www.vectorstock.com/royalty-free-vector/tablet-pc-vector-810516" title="tablet pc vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/05/16/tablet-pc-vector-810516.jpg" title="tablet pc" alt="tablet pc vector image"></noscript></a></li>
+						<li data-id="20993383" data-title="isometric gadgets and computer store" data-src="https://cdn4.vectorstock.com/i/thumbs/33/83/isometric-gadgets-and-computer-store-vector-20993383.jpg"><a href="//www.vectorstock.com/royalty-free-vector/isometric-gadgets-and-computer-store-vector-20993383" title="isometric gadgets and computer store vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/33/83/isometric-gadgets-and-computer-store-vector-20993383.jpg" title="isometric gadgets and computer store" alt="isometric gadgets and computer store vector image"></noscript></a></li>
+						<li data-id="4641717" data-title="paper mobile city navigation application software" data-src="https://cdn3.vectorstock.com/i/thumbs/17/17/paper-mobile-city-navigation-application-software-vector-4641717.jpg"><a href="//www.vectorstock.com/royalty-free-vector/paper-mobile-city-navigation-application-software-vector-4641717" title="paper mobile city navigation application software vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/17/17/paper-mobile-city-navigation-application-software-vector-4641717.jpg" title="paper mobile city navigation application software" alt="paper mobile city navigation application software vector image"></noscript></a></li>
+						<li data-id="21139174" data-title="black smartphone with map gps navigation" data-src="https://cdn5.vectorstock.com/i/thumbs/91/74/black-smartphone-with-map-gps-navigation-vector-21139174.jpg"><a href="//www.vectorstock.com/royalty-free-vector/black-smartphone-with-map-gps-navigation-vector-21139174" title="black smartphone with map gps navigation vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/91/74/black-smartphone-with-map-gps-navigation-vector-21139174.jpg" title="black smartphone with map gps navigation" alt="black smartphone with map gps navigation vector image"></noscript></a></li>
+						<li data-id="13426301" data-title="phone with mobile gps navigation" data-src="https://cdn2.vectorstock.com/i/thumbs/63/01/phone-with-mobile-gps-navigation-vector-13426301.jpg"><a href="//www.vectorstock.com/royalty-free-vector/phone-with-mobile-gps-navigation-vector-13426301" title="phone with mobile gps navigation vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/63/01/phone-with-mobile-gps-navigation-vector-13426301.jpg" title="phone with mobile gps navigation" alt="phone with mobile gps navigation vector image"></noscript></a></li>
+						<li data-id="9764897" data-title="mobile navigation on tablet isometric city" data-src="https://cdn3.vectorstock.com/i/thumbs/48/97/mobile-navigation-on-tablet-isometric-city-vector-9764897.jpg"><a href="//www.vectorstock.com/royalty-free-vector/mobile-navigation-on-tablet-isometric-city-vector-9764897" title="mobile navigation on tablet isometric city vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/48/97/mobile-navigation-on-tablet-isometric-city-vector-9764897.jpg" title="mobile navigation on tablet isometric city" alt="mobile navigation on tablet isometric city vector image"></noscript></a></li>
+						<li data-id="2112005" data-title="abstract city map with symbols collection" data-src="https://cdn1.vectorstock.com/i/thumbs/20/05/abstract-city-map-with-symbols-collection-vector-2112005.jpg"><a href="//www.vectorstock.com/royalty-free-vector/abstract-city-map-with-symbols-collection-vector-2112005" title="abstract city map with symbols collection vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/20/05/abstract-city-map-with-symbols-collection-vector-2112005.jpg" title="abstract city map with symbols collection" alt="abstract city map with symbols collection vector image"></noscript></a></li>
+						<li data-id="43666413" data-title="car navigation system line icon gps navigator" data-src="https://cdn4.vectorstock.com/i/thumbs/64/13/car-navigation-system-line-icon-gps-navigator-vector-43666413.jpg"><a href="//www.vectorstock.com/royalty-free-vector/car-navigation-system-line-icon-gps-navigator-vector-43666413" title="car navigation system line icon gps navigator vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/64/13/car-navigation-system-line-icon-gps-navigator-vector-43666413.jpg" title="car navigation system line icon gps navigator" alt="car navigation system line icon gps navigator vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-similar-to_8002179" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="/royalty-free-vectors/vectors-by_Deedman" rel="nofollow">Deedman</a></strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.webp 2x, https://cdn.vectorstock.com/i/preview-1x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.webp 3x, https://cdn.vectorstock.com/i/preview-1x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.webp 2x, https://cdn.vectorstock.com/i/preview-lt/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/21/77/flat-3d-isometric-map-on-mobile-gps-navigation-vector-8002177.jpg" data-id="8002177" data-title="flat 3d isometric map on mobile gps navigation" data-ratio="1" loading="lazy" alt="Flat 3d isometric map on mobile gps navigation vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/inscription-rio-de-janeiro-brazil-vacation-vector-8287572">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.webp 2x, https://cdn.vectorstock.com/i/preview-1x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.webp 3x, https://cdn.vectorstock.com/i/preview-1x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.webp 2x, https://cdn.vectorstock.com/i/preview-lt/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/75/72/inscription-rio-de-janeiro-brazil-vacation-vector-8287572.jpg" data-id="8287572" data-title="inscription rio de janeiro brazil vacation" data-ratio="1" loading="lazy" alt="Inscription rio de janeiro brazil vacation vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/inscription-rio-de-janeiro-on-background-vector-8833543">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.webp 2x, https://cdn.vectorstock.com/i/preview-1x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.webp 3x, https://cdn.vectorstock.com/i/preview-1x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.webp 2x, https://cdn.vectorstock.com/i/preview-lt/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/35/43/inscription-rio-de-janeiro-on-background-vector-8833543.jpg" data-id="8833543" data-title="inscription rio de janeiro on background" data-ratio="1" loading="lazy" alt="Inscription rio de janeiro on background vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/nscription-rio-de-janeiro-brazil-vacation-vector-8287864">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.webp 2x, https://cdn.vectorstock.com/i/preview-1x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.webp 3x, https://cdn.vectorstock.com/i/preview-1x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.webp 2x, https://cdn.vectorstock.com/i/preview-lt/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/78/64/nscription-rio-de-janeiro-brazil-vacation-vector-8287864.jpg" data-id="8287864" data-title="nscription rio de janeiro brazil vacation" data-ratio="1" loading="lazy" alt="Nscription rio de janeiro brazil vacation vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/sport-background-with-watercolor-stain-vector-9400396">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/96/sport-background-with-watercolor-stain-vector-9400396.webp 2x, https://cdn.vectorstock.com/i/preview-1x/03/96/sport-background-with-watercolor-stain-vector-9400396.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/03/96/sport-background-with-watercolor-stain-vector-9400396.webp 3x, https://cdn.vectorstock.com/i/preview-1x/03/96/sport-background-with-watercolor-stain-vector-9400396.webp 2x, https://cdn.vectorstock.com/i/preview-lt/03/96/sport-background-with-watercolor-stain-vector-9400396.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/96/sport-background-with-watercolor-stain-vector-9400396.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/03/96/sport-background-with-watercolor-stain-vector-9400396.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/03/96/sport-background-with-watercolor-stain-vector-9400396.jpg" data-id="9400396" data-title="sport background with watercolor stain" data-ratio="1" loading="lazy" alt="Sport background with watercolor stain vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/soccer-ball-on-watercolor-ink-vector-9374563">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.webp 2x, https://cdn.vectorstock.com/i/preview-1x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.webp 3x, https://cdn.vectorstock.com/i/preview-1x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.webp 2x, https://cdn.vectorstock.com/i/preview-lt/45/63/soccer-ball-on-watercolor-ink-vector-9374563.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/45/63/soccer-ball-on-watercolor-ink-vector-9374563.jpg" data-id="9374563" data-title="soccer ball on watercolor ink" data-ratio="1" loading="lazy" alt="Soccer ball on watercolor ink vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/signs-football-championship-2016-on-background-vector-9672337">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/23/37/signs-football-championship-2016-on-background-vector-9672337.webp 2x, https://cdn.vectorstock.com/i/preview-1x/23/37/signs-football-championship-2016-on-background-vector-9672337.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/23/37/signs-football-championship-2016-on-background-vector-9672337.webp 3x, https://cdn.vectorstock.com/i/preview-1x/23/37/signs-football-championship-2016-on-background-vector-9672337.webp 2x, https://cdn.vectorstock.com/i/preview-lt/23/37/signs-football-championship-2016-on-background-vector-9672337.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/23/37/signs-football-championship-2016-on-background-vector-9672337.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/23/37/signs-football-championship-2016-on-background-vector-9672337.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/23/37/signs-football-championship-2016-on-background-vector-9672337.jpg" data-id="9672337" data-title="signs football championship 2016 on background" data-ratio="1" loading="lazy" alt="Signs football championship 2016 on background vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/football-championship-2016-sports-banners-vector-9672295">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/22/95/football-championship-2016-sports-banners-vector-9672295.webp 2x, https://cdn.vectorstock.com/i/preview-1x/22/95/football-championship-2016-sports-banners-vector-9672295.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/22/95/football-championship-2016-sports-banners-vector-9672295.webp 3x, https://cdn.vectorstock.com/i/preview-1x/22/95/football-championship-2016-sports-banners-vector-9672295.webp 2x, https://cdn.vectorstock.com/i/preview-lt/22/95/football-championship-2016-sports-banners-vector-9672295.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/22/95/football-championship-2016-sports-banners-vector-9672295.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/22/95/football-championship-2016-sports-banners-vector-9672295.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/22/95/football-championship-2016-sports-banners-vector-9672295.jpg" data-id="9672295" data-title="football championship 2016 sports banners" data-ratio="1" loading="lazy" alt="Football championship 2016 sports banners vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/soccer-ball-with-the-image-of-fire-vector-10603361">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.webp 2x, https://cdn.vectorstock.com/i/preview-1x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.webp 3x, https://cdn.vectorstock.com/i/preview-1x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.webp 2x, https://cdn.vectorstock.com/i/preview-lt/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/33/61/soccer-ball-with-the-image-of-fire-vector-10603361.jpg" data-id="10603361" data-title="soccer ball with the image of fire" data-ratio="1" loading="lazy" alt="Soccer ball with the image of fire vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/concept-soccer-player-with-colored-geometric-vector-10603371">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.webp 2x, https://cdn.vectorstock.com/i/preview-1x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.webp 3x, https://cdn.vectorstock.com/i/preview-1x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.webp 2x, https://cdn.vectorstock.com/i/preview-lt/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/33/71/concept-soccer-player-with-colored-geometric-vector-10603371.jpg" data-id="10603371" data-title="concept soccer player with colored geometric" data-ratio="1" loading="lazy" alt="Concept soccer player with colored geometric vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="8287573" data-title="signssymbols inscription 2016 on a background" data-src="https://cdn4.vectorstock.com/i/thumbs/75/73/signssymbols-inscription-2016-on-a-background-vector-8287573.jpg"><a href="//www.vectorstock.com/royalty-free-vector/signssymbols-inscription-2016-on-a-background-vector-8287573" title="signssymbols inscription 2016 on a background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/75/73/signssymbols-inscription-2016-on-a-background-vector-8287573.jpg" title="signssymbols inscription 2016 on a background" alt="signssymbols inscription 2016 on a background vector image vector image"></noscript></a></li>
+						<li data-id="8002216" data-title="virus zika" data-src="https://cdn2.vectorstock.com/i/thumbs/22/16/virus-zika-vector-8002216.jpg"><a href="//www.vectorstock.com/royalty-free-vector/virus-zika-vector-8002216" title="virus zika vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/22/16/virus-zika-vector-8002216.jpg" title="virus zika" alt="virus zika vector image vector image"></noscript></a></li>
+						<li data-id="10603182" data-title="soccer player with colored geometric shapes" data-src="https://cdn3.vectorstock.com/i/thumbs/31/82/soccer-player-with-colored-geometric-shapes-vector-10603182.jpg"><a href="//www.vectorstock.com/royalty-free-vector/soccer-player-with-colored-geometric-shapes-vector-10603182" title="soccer player with colored geometric shapes vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/31/82/soccer-player-with-colored-geometric-shapes-vector-10603182.jpg" title="soccer player with colored geometric shapes" alt="soccer player with colored geometric shapes vector image vector image"></noscript></a></li>
+						<li data-id="10603004" data-title="signs symbols inscription 2016 on a ink explosion" data-src="https://cdn5.vectorstock.com/i/thumbs/30/04/signs-symbols-inscription-2016-on-a-ink-explosion-vector-10603004.jpg"><a href="//www.vectorstock.com/royalty-free-vector/signs-symbols-inscription-2016-on-a-ink-explosion-vector-10603004" title="signs symbols inscription 2016 on a ink explosion vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/30/04/signs-symbols-inscription-2016-on-a-ink-explosion-vector-10603004.jpg" title="signs symbols inscription 2016 on a ink explosion" alt="signs symbols inscription 2016 on a ink explosion vector image vector image"></noscript></a></li>
+						<li data-id="8002203" data-title="mobile phone with graphs and reports" data-src="https://cdn4.vectorstock.com/i/thumbs/22/03/mobile-phone-with-graphs-and-reports-vector-8002203.jpg"><a href="//www.vectorstock.com/royalty-free-vector/mobile-phone-with-graphs-and-reports-vector-8002203" title="mobile phone with graphs and reports vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/22/03/mobile-phone-with-graphs-and-reports-vector-8002203.jpg" title="mobile phone with graphs and reports" alt="mobile phone with graphs and reports vector image vector image"></noscript></a></li>
+						<li data-id="10603168" data-title="soccer player with colored geometric shapes" data-src="https://cdn4.vectorstock.com/i/thumbs/31/68/soccer-player-with-colored-geometric-shapes-vector-10603168.jpg"><a href="//www.vectorstock.com/royalty-free-vector/soccer-player-with-colored-geometric-shapes-vector-10603168" title="soccer player with colored geometric shapes vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/31/68/soccer-player-with-colored-geometric-shapes-vector-10603168.jpg" title="soccer player with colored geometric shapes" alt="soccer player with colored geometric shapes vector image vector image"></noscript></a></li>
+						<li data-id="10603154" data-title="inscription welcome to rio de janeiro" data-src="https://cdn5.vectorstock.com/i/thumbs/31/54/inscription-welcome-to-rio-de-janeiro-vector-10603154.jpg"><a href="//www.vectorstock.com/royalty-free-vector/inscription-welcome-to-rio-de-janeiro-vector-10603154" title="inscription welcome to rio de janeiro vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/31/54/inscription-welcome-to-rio-de-janeiro-vector-10603154.jpg" title="inscription welcome to rio de janeiro" alt="inscription welcome to rio de janeiro vector image vector image"></noscript></a></li>
+						<li data-id="9672299" data-title="10 5" data-src="https://cdn5.vectorstock.com/i/thumbs/22/99/10-5-vector-9672299.jpg"><a href="//www.vectorstock.com/royalty-free-vector/10-5-vector-9672299" title="10 5 vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/22/99/10-5-vector-9672299.jpg" title="10 5" alt="10 5 vector image vector image"></noscript></a></li>
+						<li data-id="8055687" data-title="virus zika infographics" data-src="https://cdn3.vectorstock.com/i/thumbs/56/87/virus-zika-infographics-vector-8055687.jpg"><a href="//www.vectorstock.com/royalty-free-vector/virus-zika-infographics-vector-8055687" title="virus zika infographics vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/56/87/virus-zika-infographics-vector-8055687.jpg" title="virus zika infographics" alt="virus zika infographics vector image vector image"></noscript></a></li>
+						<li data-id="9672345" data-title="signs football championship with player and ball" data-src="https://cdn1.vectorstock.com/i/thumbs/23/45/signs-football-championship-with-player-and-ball-vector-9672345.jpg"><a href="//www.vectorstock.com/royalty-free-vector/signs-football-championship-with-player-and-ball-vector-9672345" title="signs football championship with player and ball vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/23/45/signs-football-championship-with-player-and-ball-vector-9672345.jpg" title="signs football championship with player and ball" alt="signs football championship with player and ball vector image vector image"></noscript></a></li>
+						<li data-id="8287584" data-title="inscription brazil 2016 on background" data-src="https://cdn5.vectorstock.com/i/thumbs/75/84/inscription-brazil-2016-on-background-vector-8287584.jpg"><a href="//www.vectorstock.com/royalty-free-vector/inscription-brazil-2016-on-background-vector-8287584" title="inscription brazil 2016 on background vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/75/84/inscription-brazil-2016-on-background-vector-8287584.jpg" title="inscription brazil 2016 on background" alt="inscription brazil 2016 on background vector image vector image"></noscript></a></li>
+						<li data-id="8833531" data-title="rio de janeiro on a background watercolor stains" data-src="https://cdn2.vectorstock.com/i/thumbs/35/31/rio-de-janeiro-on-a-background-watercolor-stains-vector-8833531.jpg"><a href="//www.vectorstock.com/royalty-free-vector/rio-de-janeiro-on-a-background-watercolor-stains-vector-8833531" title="rio de janeiro on a background watercolor stains vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/35/31/rio-de-janeiro-on-a-background-watercolor-stains-vector-8833531.jpg" title="rio de janeiro on a background watercolor stains" alt="rio de janeiro on a background watercolor stains vector image vector image"></noscript></a></li>
+						<li data-id="9672350" data-title="football map and infographics figure" data-src="https://cdn1.vectorstock.com/i/thumbs/23/50/football-map-and-infographics-figure-vector-9672350.jpg"><a href="//www.vectorstock.com/royalty-free-vector/football-map-and-infographics-figure-vector-9672350" title="football map and infographics figure vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/23/50/football-map-and-infographics-figure-vector-9672350.jpg" title="football map and infographics figure" alt="football map and infographics figure vector image vector image"></noscript></a></li>
+						<li data-id="8287862" data-title="signssymbols inscription 2016 on a background" data-src="https://cdn3.vectorstock.com/i/thumbs/78/62/signssymbols-inscription-2016-on-a-background-vector-8287862.jpg"><a href="//www.vectorstock.com/royalty-free-vector/signssymbols-inscription-2016-on-a-background-vector-8287862" title="signssymbols inscription 2016 on a background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/78/62/signssymbols-inscription-2016-on-a-background-vector-8287862.jpg" title="signssymbols inscription 2016 on a background" alt="signssymbols inscription 2016 on a background vector image vector image"></noscript></a></li>
+						<li data-id="10602903" data-title="concept of soccer player with colored geometric" data-src="https://cdn4.vectorstock.com/i/thumbs/29/03/concept-of-soccer-player-with-colored-geometric-vector-10602903.jpg"><a href="//www.vectorstock.com/royalty-free-vector/concept-of-soccer-player-with-colored-geometric-vector-10602903" title="concept of soccer player with colored geometric vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/29/03/concept-of-soccer-player-with-colored-geometric-vector-10602903.jpg" title="concept of soccer player with colored geometric" alt="concept of soccer player with colored geometric vector image vector image"></noscript></a></li>
+						<li data-id="8002222" data-title="welcome to summer" data-src="https://cdn3.vectorstock.com/i/thumbs/22/22/welcome-to-summer-vector-8002222.jpg"><a href="//www.vectorstock.com/royalty-free-vector/welcome-to-summer-vector-8002222" title="welcome to summer vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/22/22/welcome-to-summer-vector-8002222.jpg" title="welcome to summer" alt="welcome to summer vector image vector image"></noscript></a></li>
+						<li data-id="8002127" data-title="sign symbol word welcome" data-src="https://cdn3.vectorstock.com/i/thumbs/21/27/sign-symbol-word-welcome-vector-8002127.jpg"><a href="//www.vectorstock.com/royalty-free-vector/sign-symbol-word-welcome-vector-8002127" title="sign symbol word welcome vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/21/27/sign-symbol-word-welcome-vector-8002127.jpg" title="sign symbol word welcome" alt="sign symbol word welcome vector image vector image"></noscript></a></li>
+						<li data-id="8002155" data-title="sacred geometry forms" data-src="https://cdn1.vectorstock.com/i/thumbs/21/55/sacred-geometry-forms-vector-8002155.jpg"><a href="//www.vectorstock.com/royalty-free-vector/sacred-geometry-forms-vector-8002155" title="sacred geometry forms vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/21/55/sacred-geometry-forms-vector-8002155.jpg" title="sacred geometry forms" alt="sacred geometry forms vector image vector image"></noscript></a></li>
+						<li data-id="8002124" data-title="welcome poster inscription on a yellow background" data-src="https://cdn5.vectorstock.com/i/thumbs/21/24/welcome-poster-inscription-on-a-yellow-background-vector-8002124.jpg"><a href="//www.vectorstock.com/royalty-free-vector/welcome-poster-inscription-on-a-yellow-background-vector-8002124" title="welcome poster inscription on a yellow background vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/21/24/welcome-poster-inscription-on-a-yellow-background-vector-8002124.jpg" title="welcome poster inscription on a yellow background" alt="welcome poster inscription on a yellow background vector image vector image"></noscript></a></li>
+						<li data-id="8353305" data-title="bouquet of flowers gerber" data-src="https://cdn1.vectorstock.com/i/thumbs/33/05/bouquet-of-flowers-gerber-vector-8353305.jpg"><a href="//www.vectorstock.com/royalty-free-vector/bouquet-of-flowers-gerber-vector-8353305" title="bouquet of flowers gerber vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/33/05/bouquet-of-flowers-gerber-vector-8353305.jpg" title="bouquet of flowers gerber" alt="bouquet of flowers gerber vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-by_Deedman" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="/royalty-free-vectors/isometric-vectors">Isometric</a></li>
+					<li><a href="/royalty-free-vectors/map-vectors">Map</a></li>
+					<li><a href="/royalty-free-vectors/navigation-vectors">Navigation</a></li>
+					<li><a href="/royalty-free-vectors/tablet-vectors">Tablet</a></li>
+					<li><a href="/royalty-free-vectors/street-vectors">Street</a></li>
+					<li><a href="/royalty-free-vectors/road-vectors">Road</a></li>
+					<li><a href="/royalty-free-vectors/urban-vectors">Urban</a></li>
+					<li><a href="/royalty-free-vectors/landscape-vectors">Landscape</a></li>
+					<li><a href="/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="/royalty-free-vectors/transport-vectors">Transport</a></li>
+					<li><a href="/royalty-free-vectors/tower-vectors">Tower</a></li>
+					<li><a href="/royalty-free-vectors/web-vectors">Web</a></li>
+					<li><a href="/royalty-free-vectors/shopping-vectors">Shopping</a></li>
+					<li><a href="/royalty-free-vectors/screen-vectors">Screen</a></li>
+					<li><a href="/royalty-free-vectors/location-vectors">Location</a></li>
+					<li><a href="/royalty-free-vectors/point-vectors">Point</a></li>
+					<li><a href="/royalty-free-vectors/set-vectors">Set</a></li>
+					<li><a href="/royalty-free-vectors/store-vectors">Store</a></li>
+					<li><a href="/royalty-free-vectors/search-vectors">Search</a></li>
+					<li><a href="/royalty-free-vectors/roof-vectors">Roof</a></li>
+					<li><a href="/royalty-free-vectors/pin-vectors">Pin</a></li>
+					<li><a href="/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="/royalty-free-vectors/phone-vectors">Phone</a></li>
+					<li><a href="/royalty-free-vectors/people-vectors">People</a></li>
+					<li><a href="/royalty-free-vectors/marker-vectors">Marker</a></li>
+					<li><a href="/royalty-free-vectors/information-vectors">Information</a></li>
+					<li><a href="/royalty-free-vectors/info-vectors">Info</a></li>
+					<li><a href="/royalty-free-vectors/mobile-vectors">Mobile</a></li>
+					<li><a href="/royalty-free-vectors/place-vectors">Place</a></li>
+					<li><a href="/royalty-free-vectors/locality-vectors">Locality</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="/" title="Home">Home</a></li>
+					<li class="sel"><a href="/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="/signup" title="Join Now">Join Now</a></li>
+						<li><a href="/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="/?signup=1&contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock&reg;">VectorStock&reg;</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				&copy; 2023. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="R9UtprGYUF8Wj9snzfQYfXEfKN1Q/c9nbWXdjPDW8jU=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":58,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body>
+</html>
