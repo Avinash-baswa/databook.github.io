@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Interest  Calculator</title>
+	<link rel="stylesheet" href="sicalculatorcss.css">
+</head>
+<body class="page">
+<div class="head">
+	<img class="cal" src="calcul/calculator.png" alt=""
+width="80">
+	<h2 class="simple">
+
+		    Simple Interest Calculator
+	<img class="underline" src="red.png"
+    width="190px;"></h2>
+
+	</div>
+	<label class="lab" for="start-date">Starting Date:</label>
+	<input class="io1" type="date" id="start-date"><br><br>
+	<label class="lab" for="end-date">Ending Date:</label>
+	<input class="io1" type="date" id="end-date"><br><br>
+	<label class="lab" for="principal">Principal Amount:</label>
+	<input class="io2" type="number" id="principal" placeholder="principal amount"><br><br>
+	<label class="lab" for="rate">Interest Rate:</label>
+	<input class="io3" type="number" id="rate" placeholder="interest rate"><br><br>
+
+	<button class="but" onclick="calculate()">Calculate</button><br><br>
+	<label class="lab" for="result">Simple Interest:</label>
+	<input class="re" type="text" id="result" readonly><br><br>
+
+<div class="data" id="resu">
+
+	 <h3 class ="sta" id="sim">Simple Intrest</h3>
+		  <h3 class ="sta" id="mon">Months</h3>
+		  <h3 class ="sta" id="days">Days</h3>
+	<div class="amount">
+		<h3 class ="sta" id="text">Total Amount :</h3>
+		<h1 class ="sta" id="total">.</h1>
+
+
+		</div>
+</div>
+
+<div class="wrapper" id="wrap">
+<div class="af1">
+	<div class="afmonth"><H3 CLASS = "HEE">AFTER 1 MONTH</H3></div>
+	<h3 class ="sta" id="date">Date</h3>
+	<h3 class ="sta" id="month">After 1 Month</h3>
+
+
+
+		  <h3 class ="sta" id="intrest">intrest</h3>
+
+	<h3 class ="sta" id="totala">TotalAmount</h3>
+</div>
+
+
+
+<div class="af1">
+	<div class="afmonth"><H3 CLASS = "HEE">AFTER 3 MONTH</H3></div>
+	<h3 class ="sta" id="date3">Date</h3>
+	<h3 class ="sta" id="month3">After 3 Month</h3>
+		  <h3 class ="sta" id="intrest3">intrest</h3>
+
+	<h3 class ="sta" id="total3">TotalAmount</h3>
+</div>
+
+
+
+<div class="af1">
+	<div class="afmonth"><H3 CLASS = "HEE">AFTER 6 MONTH</H3></div>
+	<h3 class ="sta" id="date6">Date</h3>
+	<h3 class ="sta" id="month6">After 6 Month</h3>
+		  <h3 class ="sta" id="intrest6">intrest</h3>
+
+	<h3 class ="sta" id="total6">TotalAmount</h3>
+</div>
+
+
+
+<div class="af1">
+	<div class="afmonth"><H3 CLASS = "HEE">AFTER 1 year</H3></div>
+	<h3 class ="sta" id="datey1">Date</h3>
+	<h3 class ="sta" id="month1y">After 1 year</h3>
+		  <h3 class ="sta" id="intrest1y">intrest</h3>
+
+	<h3 class ="sta" id="total1y">TotalAmount</h3>
+</div>
+
+
+<div class="af1">
+	<div class="afmonth"><H3 CLASS = "HEE">AFTER 2 year</H3></div>
+	<h3 class ="sta" id="datey2">Date</h3>
+	<h3 class ="sta" id="month2y">After 2 year</h3>
+		  <h3 class ="sta" id="intrest2y">intrest</h3>
+
+	<h3 class ="sta" id="total2y">TotalAmount</h3>
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+<script>
+
+document.getElementById("resu").style.visibility = "hidden";
+document.getElementById("wrap").style.visibility = "hidden";
+
+function calculate() {
+		console.log("aviansh");
+			var startDate = document.getElementById("start-date").value;
+			let sdate = startDate.split("-");
+
+			var endDate = document.getElementById("end-date").value;
+			let edate = endDate.split("-");
+
+			var principal = document.getElementById("principal").value;
+			var rate = document.getElementById("rate").value;
+			var initday = Number(sdate[2]);
+			var endday = Number(edate[2]);
+			var initialMonths = Number(sdate[1]);
+			var finalMonths = Number(edate[1]);
+			var month = initialMonths;
+
+			var initialYear = Number(sdate[0]);
+			var finalYear = Number(edate[0]);
+			var year = initialYear;
+
+			 var noofMonths = 12 - initialMonths;
+			 var noOfYear = (finalYear - initialYear) - 1;
+			 noofMonths = noofMonths + (noOfYear * 12);
+			 noofMonths = noofMonths + finalMonths;
+				var si = 0;
+				var crossed = 0;
+				let status = "no"
+
+			if (endday > initday)
+			{
+			crossed = endday - initday;
+			status = "Crossed"
+			document.getElementById("days").style.color = "#8b0000 ";
+			document.getElementById("days").style.textShadow = "0px 0px 6px black";
+			document.getElementById("days").style.backgroundColor = "white ";
+			document.getElementById("days").style.width = "150px";
+			document.getElementById("days").style.padding = "3px";
+
+			if (crossed >= 29 && finalMonths != 2 ){
+			noofMonths +=1
+			crossed -=29
+			}
+			else if(crossed >= 27 && finalMonths == 2 )
+			{
+			noofMonths +=1
+			crossed -=27
+			}
+
+			}
+			else if ( initday > endday )
+			{
+			crossed =  initday - endday;
+			status = "Left"
+			document.getElementById("days").style.color = "green ";
+			document.getElementById("days").style.textShadow = "0px 0px 6px black";
+			document.getElementById("days").style.backgroundColor = "white ";
+			document.getElementById("days").style.width = "150px";
+			document.getElementById("days").style.padding = "3px";
+			}
+			if( finalYear == initialYear && initialMonths == finalMonths && crossed != 0  && noofMonths <=0  )
+			{
+
+			status = "only completed!"
+			document.getElementById("days").style.color = "#7826ff ";
+			document.getElementById("days").style.backgroundColor = "white ";
+
+
+			document.getElementById("days").style.textShadow = "0px 0px 6px black";
+			document.getElementById("days").style.width = "150px";
+			document.getElementById("days").style.padding = "3px";
+			}
+
+		si =(principal * rate * noofMonths)/100;
+			document.getElementById("result").value = si;
+		let total = Number(si)+ Number(principal);
+		document.getElementById("sim").innerHTML = "Simple Intrest :" +  si +" "+"Rs";
+		document.getElementById("mon").innerHTML = "For Months  :" +  noofMonths ;
+		document.getElementById("days").innerHTML =  crossed +" "+"days"+" "+status;
+		document.getElementById("total").innerHTML = total;
+		document.getElementById("total").style.color = "#800080";
+		document.getElementById("total").style.textShadow = "0px 0px 10px white";
+let sia = 1;
+		let onemonth = noofMonths + 1;
+
+		let changedmonth = Number(edate[1]);
+		let changedyear = Number(edate[0]);
+		let mod = 0;
+		if ((changedmonth + 1 ) > 12){
+		changedyear += 1;
+		changedmonth = 1;
+		}
+		else{
+		changedmonth += 1;
+		}
+
+
+
+		sia =(principal * rate * onemonth)/100;
+		let totalone = Number(sia)+Number(principal);
+		document.getElementById("date").innerHTML = "on date :" +  changedmonth +" "+changedyear;
+
+		document.getElementById("month").innerHTML = "Simple Intrest :" +  sia +" "+"Rs";
+		document.getElementById("intrest").innerHTML = "Months  :" +  onemonth ;
+		document.getElementById("totala").innerHTML = "Total Amount :"+totalone;
+
+let sia3 = 1;
+
+	let threechangedmonth = Number(edate[1]);
+		let threechangedyear = Number(edate[0]);
+		let threemod=0;
+
+		if ((threechangedmonth + 3 ) > 12){
+		threechangedyear += 1;
+
+		threemod = 12 - Number(edate[1]);
+		threechangedmonth = 3 - threemod
+		}
+		else{
+		threechangedmonth += 3;
+		}
+
+
+		let threemonth = noofMonths + 3;
+		sia3 =(principal * rate * threemonth)/100;
+		let total3 = Number(sia3)+Number(principal);
+		document.getElementById("date3").innerHTML = "on date :" +  threechangedmonth +" "+threechangedyear;
+
+		document.getElementById("month3").innerHTML = "Simple Intrest :" +  sia3 +" "+"Rs";
+		document.getElementById("intrest3").innerHTML = "Months  :" +  threemonth ;
+		document.getElementById("total3").innerHTML = "Total Amount :"+total3;
+
+
+let sia6 = 1;
+
+
+	let sixchangedmonth = Number(edate[1]);
+		let sixchangedyear = Number(edate[0]);
+		let sixmod=0;
+
+		if ((sixchangedmonth + 6 ) > 12){
+		sixchangedyear += 1;
+
+		threemod = 12 - Number(edate[1]);
+		sixchangedmonth = 6 - threemod
+		}
+		else{
+		sixchangedmonth += 6;
+		}
+
+		let sixmonth = noofMonths + 6;
+		sia6 =(principal * rate * sixmonth)/100;
+		let total6 = Number(sia6)+Number(principal);
+		document.getElementById("date6").innerHTML = "on date :" +  sixchangedmonth +" "+sixchangedyear;
+
+		document.getElementById("month6").innerHTML = "Simple Intrest :" +  sia6 +" "+"Rs";
+		document.getElementById("intrest6").innerHTML = "Months  :" +  sixmonth ;
+		document.getElementById("total6").innerHTML = "Total Amount :"+total6;
+
+
+let siay1 = 1;
+
+
+
+
+
+		let oneyearchangedyear = Number(edate[0]) +1 ;
+
+
+
+
+
+		let yearmonth1 = noofMonths + 12;
+		siay1 =(principal * rate * yearmonth1)/100;
+		let totaly1 = Number(siay1)+Number(principal);
+		document.getElementById("datey1").innerHTML = "on date :" +  Number(edate[1]) +" "+oneyearchangedyear;
+
+		document.getElementById("month1y").innerHTML = "Simple Intrest :" +  siay1 +" "+"Rs";
+		document.getElementById("intrest1y").innerHTML = "Months  :" +  yearmonth1 ;
+		document.getElementById("total1y").innerHTML = "Total Amount :"+totaly1;
+
+
+
+let sia2y = 1;
+let twoyearchangedyear = Number(edate[0]) +2 ;
+		let yearmonth2 = noofMonths + 24;
+		sia2y =(principal * rate * yearmonth2)/100;
+		let totaly2 = Number(sia2y)+Number(principal);
+
+		document.getElementById("datey2").innerHTML = "on date :" +  Number(edate[1]) +" "+twoyearchangedyear;
+
+
+		document.getElementById("month2y").innerHTML = "Simple Intrest :" +  sia2y +" "+"Rs";
+		document.getElementById("intrest2y").innerHTML = "Months  :" +  yearmonth2 ;
+		document.getElementById("total2y").innerHTML = "Total Amount :"+totaly2;
+
+
+document.getElementById("resu").style.visibility = "visible";
+		document.getElementById("wrap").style.visibility = "visible";
+
+
+
+}
+
+
+
+
+
+
+	</script>
