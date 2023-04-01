@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ironman</title>
+</head>
+<body class ="page">
+<div class="circle">
+    <video autoplay muted loop id="myVideo">
+  <source class = "vid" src="ironman/jarmod.mp4" type="video/mp4"
+  width="1000px"
+  height="500px">
+</video>
+    </div>
+<div class="wing">
+    <img class="leftwing" src="ironman/ws3.png" alt=""
+    width="800px" height="800px">
+
+    <div class="data">
+        <div class="icon">---</div>
+        <div class="temp">-°C</div>
+
+        <div class="summary">----</div>
+        <div class="location"></div>
+        <div class="long">-----</div>
+
+    </div>
+</div>
+
+</body>
+
+<script>
+
+    // Declaring the variables
+    let lon;
+    let lat;
+    let temperature = document.querySelector(".temp");
+    let summary = document.querySelector(".summary");
+    let loc = document.querySelector(".location");
+    let icon = document.querySelector(".icon");
+    let long = document.querySelector(".long");
+    let latt = document.querySelector(".lat");
+    const kelvin = 273;
+
+    window.addEventListener("load", () => {
+      if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition((position) => {
+      console.log(position);
+      lon = position.coords.longitude;
+      lat = position.coords.latitude;
+      console.log(lon);
+
+      // API ID
+      const api = "6d055e39ee237af35ca066f35474e9df";
+
+      // API URL
+      const base =
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
+    `lon=${lon}&appid=c256aa80ccbb06a9463d7fd062933f34`;
+
+      // Calling the API
+      fetch(base)
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+            console.log("lets log from here!!")
+          console.log(data);
+          temperature.textContent =
+              Math.floor(data.main.temp - kelvin) + "°C" ;
+              temperature.style.fontSize = "30px";
+              summary.style.fontSize = "30px";
+
+          summary.textContent = data.weather[0].description;
+          long.textContent = lon + " "+lat;
+
+          loc.textContent = data.name + "," + data.sys.country;
+          let icon1 = data.weather[0].icon;
+
+          icon.innerHTML =
+              `<img src="ironman/cloudy.png" style= 'height:3rem'/>`;
+
+
+        });
+    });
+      }
+    });
+
+
+</script>
+</html>
+<style>
+    .page{
+    background-color:black;
+    padding:0px;
+    margin:0px;
+    }
+
+    .circle{
+    position:absolute;
+    left:0px;
+    top:200px;
+    width:400px;
+    height:400px;
+    border-radius:800px;
+    border : 2px solid white;
+    }
+.wing{
+
+rotate:0deg;
+position:absolute;
+left:150px;
+top:300px;
+color:red;
+/*border : 1px solid pink;*/
+transform:scale(0.9);
+animation: rot 1s;
+
+    }
+    .data{
+transform:rotate(20deg);
+    width:140px;
+   /*  border:2px solid yellow; */
+    padding:15px;
+    margin:0px;
+   position:absolute;
+    left:110px;
+    bottom:520px;
+    text-shadow: 0px 0px 20px black;
+
+     color:skyblue;
+    }
+.innerdata{
+width:10px;
+height:10px;
+margin:0px;
+padding:0px;
+
+
+}
+.data_input{
+float:right;
+/* border:2px solid green; */
+padding:0px;
+margin:0px;
+}
+
+
+@keyframes rot{
+0%{
+transform:scale(.3);
+rotate:120deg;
+}
+
+50%{
+rotate:0deg;
+transform:scale(1.5);
+
+}
+
+
+
+}
+.inman{
+transform:scale(1.2);
+position:absolute;
+top:-60px;
+}
+
+.leftwing{
+
+filter: drop-shadow(5px 5px 10px blue);
+}
+.vid{
+padding:0px;
+margin:0px;
+}
+</style>
