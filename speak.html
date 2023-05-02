@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TTP</title>
+</head>
+<body>
+<button id = 'btn'>speak</button>
+
+<div></div>
+</body>
+</html>
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+</style>
+<script>
+    document.getElementById("btn").addEventListener("click",()=>
+   { var msg = "iam the boss Note of the author. Stark, a bold, thick technological face, is heavily influenced by the title logo of the Iron Man series of movies from Marvel Comics and Paramount Pictures. Includes full alphabet, extended";
+const utterance = new SpeechSynthesisUtterance(msg);
+utterance.pitch = 1;
+utterance.volume = 1;
+utterance.rate = 1.6;
+speechSynthesis.speak(utterance);
+    });
+</script>
