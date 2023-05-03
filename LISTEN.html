@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<div class="voice_to_text">
+
+<h1>Voice To Text Converter</h1>
+
+<textarea id="convert_text"></textarea>
+    <button id="click_to_convert">Voice to Text</button>
+
+</div>
+</body>
+
+
+
+
+</html>
+
+
+
+<script>
+
+const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+recognition.onstart = function() {
+  console.log('Speech recognition started');
+};
+
+recognition.onresult = function(event) {
+  const result = event.results[event.resultIndex][0].transcript;
+  console.log('You said: ' + result);
+};
+
+recognition.onerror = function(event) {
+  console.log('Error occurred in recognition: ' + event.error);
+};
+
+recognition.onend = function() {
+  console.log('Speech recognition ended');
+};
+
+</script>
