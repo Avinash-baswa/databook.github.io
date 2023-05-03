@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Speech to Text Example</title>
+  </head>
+  <body>
+    <button id="start-button">Start Speech Recognition</button>
+    <script>
+      if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+        const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+
+        recognition.onstart = function() {
+          console.log('Speech recognition started');
+        };
+
+        recognition.onresult = function(event) {
+          const result = event.results[event.resultIndex][0].transcript;
+          console.log('You said: ' + result);
+        };
+
+        recognition.onerror = function(event) {
+          console.log('Error occurred in recognition: ' + event.error);
+        };
+
+        recognition.onend = function() {
+          console.log('Speech recognition ended');
+        };
+
+        const startButton = document.querySelector('#start-button');
+        startButton.addEventListener('click', function() {
+          recognition.start();
+        });
+      } else {
+        console.log('The Web Speech API is not supported');
+      }
+    </script>
+  </body>
+</html>
