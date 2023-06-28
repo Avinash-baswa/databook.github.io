@@ -1,0 +1,204 @@
+
+
+.page{
+width:1280px;
+height:1000px;
+
+background-image: linear-gradient(to bottom right,#FFF8DC 10% ,black);}
+.main{
+
+padding:50px;
+
+}
+
+#ip_file{
+position: absolute;
+left:80px;
+top:380px;
+
+
+}
+#pro{
+width:200px;
+height:300px;
+transform:scale(5);
+position : absolute;
+scale : 0.2;
+top:60px;
+left:60px;
+border-radius:20px;
+box-shadow: 0 0 30px black;
+
+}
+
+.profile_picture{
+#background-color:#a414dd;
+border-radius:25px;
+width:200px;
+height:300px;
+
+}
+#description{
+width:220px;
+height:100px;
+transform:scale(5);
+position : absolute;
+scale : 0.2;
+top:235px;
+left:280px;
+border-radius:10px;
+box-shadow: 0 0 30px black inset;
+
+
+
+}
+
+#ocr{
+
+scale:0.2;
+top:25px;
+left:280px;
+color : BLACK;
+width:300px;
+height:200px;
+transform:scale(5);
+position : absolute;
+//border-radius:10px;
+//box-shadow: 0 0 30px black inset;
+background-color: transparent;
+
+}
+
+#formm{
+vertical-align: middle;
+padding : 30px;
+}
+input[type="radio"]
+{
+#display:none;
+
+}
+
+label {
+
+#border: 2px solid red;
+border-radius:3px;
+padding: 1px;
+#background-color :yellow;
+color:yellow;
+text-shadow: 0px 1px 10px black;
+}
+.rb{
+padding:30px;
+}
+#formm div{
+padding : 5px;
+}
+
+#hudpp{
+
+position: absolute;
+left:-25px;
+top:-39px;
+}
+
+input[type='TEX'] {
+margin:3px;
+border-radius:5px;
+background-color:#8B4513;
+background-color:#8B4513;
+color:yellow;
+border : 1px solid #8B4513;
+box-shadow: 2px 2px 7px black inset;
+text-shadow: 0px 1px 10px black inset;
+}
+
+input[type='radio']:hover{
+
+
+
+
+}
+
+input ,select{
+background-color : #FFF8DC;
+background-color :  #9F8170;
+border : 1px solid #FFF8DC;
+border-radius : 4px;
+padding:1.5px;
+box-shadow: 1px 1px 7px black inset;
+
+
+}
+doc_details{
+
+padding : 10px;
+}
+
+textarea{
+background-color : #FFF8DC;
+background-color :  #9F8170;
+border : none;
+border-radius : 4px;
+padding:1.5px;
+
+
+color:black;
+ scrollbar-face-color: #ff8c00;
+    scrollbar-track-color: #fff8dc;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-highlight-color: #fff8dc;
+    scrollbar-shadow-color: #d2691e;
+    scrollbar-3dlight-color: #ffebcd;
+    scrollbar-darkshadow-color: #8b0000;
+}
+
+#ocrt{
+
+}
+
+.sav {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 1px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.sav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sav span:after {
+  content: '\2601';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sav:hover span {
+
+  padding-right: 25px;
+}
+
+.sav:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="docstyle.css">
+    <title>docma</title>
+</head>
+<body class="page">
+<div class="main">
+    <div class="profile_picture" id="pp">
+
+          <img src="green.jpg"     id="pro" alt=""
+         >
+        <textarea id="description" placeholder="otherDescription"> iam the best</textarea>
+        <textarea id="ocr" placeholder="OCR"></textarea>
+
+         </div>
+
+
+<input id="ip_file" type="file">
+
+</div>
+<div id="details" class="detailsc" >
+    <form  id="formm">
+        <div>
+
+            <p id="doc_details">This document is
+
+            <select name="doc_cat" id="doc_catid">
+  <option value="Adahar">Adahar</option>
+  <option value="purchaseOrder">purchaseOrder</option>
+  <option value="Bank">Bank</option>
+  <option value="Health">Health</option>
+  <option value="land">land</option>
+  <option value="debt">debt</option>
+  <option value="vehicle">vechile</option>
+  <option value="investments">investments</option>
+  <option value="Education">Education</option>
+</select>
+               kind with identity  <input type="text" name="bill1" id="billid1">
+                <br>
+                <br>
+                which is
+             releated to
+
+                    <select name="doc_user" id="doc_user">
+  <option value="Veerababu">Veerababu</option>
+  <option value="Rani">Rani</option>
+                        <option value="Sanjay">Sanjay</option>
+                        <option value="Avinash">Avinash</option>
+                        <option value="Others">Others</option>
+                        <option value="Home">Home</option>
+                    </select>
+
+
+
+               and it is initiated on  <input type="date" id="init">  <br>
+                <br> and valid upto <input type="date" id="exp">
+
+
+            </p>
+
+
+<button class="sav" style="vertical-align:middle"><span>Save </span></button>
+
+
+
+</div>
+    </form>
+    
+</div>
+</body>
+
+</html>
+
+<script src="https://unpkg.com/tesseract.js@v2.0.0-alpha.13/dist/tesseract.min.js"></script>
+
+<script  src="docjs.js">
+</script>
