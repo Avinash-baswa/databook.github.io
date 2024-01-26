@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test AR #1</title>
+   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.2.2/aframe/build/aframe-ar.js"></script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+    <!-- Marker for tracking -->
+  <!--  <a-marker type="pattern" url="pattern-marker.patt"> -->
+<a-marker preset="hiro"><!-- Plane to display the image -->
+<!--      <a-plane id="imagePlane" position="0 0 0" rotation="-90 0 0" width="4" height="2.25" material="shader: flat; scale: 2 2 2"></a-plane>-->
+    <a-image src="ironman.png" position="0 0 0" rotation="-90 0 0" width="3" height="2"
+   style="transform=scale(10)"
+    ></a-image>
+    <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
+
+<a-entity
+  geometry="primitive: box"
+  material="color: red"
+  animation__mouseenter="property: components.material.material.color; type: color; to: blue; startEvents: mouseenter; dur: 500";
+  animation__mouseleave="property: components.material.material.color; type: color; to: red; startEvents: mouseleave; dur: 500";>
+</a-entity>
+    ></a-image>
+    </a-marker>
+    <!-- Camera to view the scene -->
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
+</html>
+
+<style>
+
+a-image{
+ transform: scaleY(1.5);
+}
+
+</style>
